@@ -7,7 +7,7 @@ def save_user_data(user_data):
     :param user_data: dictionary containing user data
     """
     # connect to google sheets using gspread with credentials
-    account = gspread.service_account(filename='data_handling/calibrated-predictions-survey-4bb73ccb8ec5.json')
+    account = gspread.service_account(filename='data_utils/calibrated-predictions-survey-4bb73ccb8ec5.json')
     spreadsheet = account.open("Calibrated Predictions Survey")
 
     # get sheets from spreadsheet

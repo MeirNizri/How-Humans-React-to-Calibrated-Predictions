@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "calibrated-predictions-survey",
+  "private_key_id": "4bb73ccb8ec51756e24736c38b85514de9e78e22",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDTeuZHh+IY/680\nv1rcLSt4/B3jij467uNNAGjtDax9CnLqHDNcJBmDOvwMEtWfq+uD1B0tMQQtAKHK\n3UTlgQ1FDd4NxXJ0A6T3EB6dbEw2E9IiaC1iQCGpt9urqzXNLYo7wv35wjUkL8Ou\nEMoum63zm04gs7urP/uNExupQAASuPD+R5NG7SUIEMcx/Q4ffXD1EeaZ1ymzeqpA\nVX+euv19YAumwN4kITEEsVb6BqWM3a6f1e+yanvvDhwacmrAMTOaQd7VJgmCfWqh\nzEBlqnU1GjCEuP9bULNfUAJjyA7tx7LlQD7Idh3oXPRjZK/WPkS5kIhxfRzN3Ye/\n5lJ5DSz/AgMBAAECggEAJ1hpOYu1bBM95KFpZSdePC8j3G6e71X8ohnea6QsoELu\naFIA2Da7LGgv9osWhZN1yNwQ5ZSGA11nvJd4Nv7QmjVfR86hYaY/7dto5r78Wt9L\nLC2Xq/zkhm/3hbPf2aGMY1v+5pXUTzw3us3S3+ME9RrC6WCnHNBVm8SfU9jdap34\n/UR+jrDFRNo/xZeL0acG1Q0BIaYc801ejwOx1WShVBKU1V6L3oRHnwL9XIz26UP5\nSOZs6f8EPPCqq+osJQmHBfyCsMUJVPB33Do3LzQgoEZo1IieSfjOFwFfzG3TbjWy\nY6hqQiAtSC1ReMF8Ivlm6DfsXyTN3yMBFaJofbcSUQKBgQD/MjdIJL8w2cXP0Tva\naUwalMf/rVEFSN2C/jsTkJah3vKUXaY/lp+5XQHKiLwn+qc1XIx2bX0FIMdqAens\n50Y/sTGknPok5AYtjAaG0JdnEum+o/cC9GhlkAkYeQD4J0Lu9Kj7tTLigGsIzvFG\nktYSbTHnJPw4Sy4vkh1/mtYntwKBgQDUJW6WsWer9rTa9ALzplggkAlGCqBqjeE+\nw+n9AeROVbi3YuZQbTYXEaNSQJL/8wayb8hq1h0uqmWGhIRgDNNvtgMBxvf3+j3y\nGE+twMKE+0M2diHl1xsyNFHAaa7tCQ0ZPNnnavkr/OAk8D6mv/vh5Jd5UluKgNxl\nf2e8twvU+QKBgD6jPrpwepUs/saxnrVPXySvHB//lIFtjyFV8X4t4Ss+I+CS0/mL\nqQzAbW4e/b/6YAxS+Q8gdK1LjGbSrW4+nhmIDp1PAn8HkRSg6AEzNdZQ6Bqo+Do7\nb1xubC0blkdSq7UnTErsAN9jkeIJmWMvK2g+cR9BDr9qhJ2cia0GfkYlAoGBAJrX\nP2Jp1ftjtBljpIvly8jomHww4WkkaVUAddae/N5YHtxrKSNmsuYfj49HZoO+BBNV\nF3kzElWvNS77pgrdEa4lsQgpC3BJi9EaAX4WhWO+aQ5lJtS1Ljp0iX7hJDYKNy9G\nhN0t7PQ4O/l6CKB43AXCbPS2Me5jo3nJhhPtnosxAoGAbSYJ37DMkmYMjjxBzO+n\nAmYr+KSpTXZKB9RD5oW9CDJQOtYIqi/MOP/FLwwlPThR6a0xn4YbUeXlYB1GrPpM\nlo1TuTpXMXN/v0cFUXjhM3aDplPLw9fzVOw1WMuYt4MP3H+dc5qjzblS0NCmTlL4\neTdCvPIlF/QMxYZQk2QhUa4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "calibrated-predictions-survey@calibrated-predictions-survey.iam.gserviceaccount.com",
+  "client_id": "101650853341579284906",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/calibrated-predictions-survey%40calibrated-predictions-survey.iam.gserviceaccount.com"
+}
