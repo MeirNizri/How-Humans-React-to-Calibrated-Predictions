@@ -186,8 +186,8 @@
     let model_name = "random"
     // let model_name = "nn"
     const xhr = new XMLHttpRequest();
-    xhr.open("GET", "https://flask-service.1tmm8q60clfs6.us-east-1.cs.amazonlightsail.com/"+model_name+"/");
-    // xhr.open("GET", "http://localhost:5000/"+model_name+"/");
+    // xhr.open("GET", "https://flask-service.1tmm8q60clfs6.us-east-1.cs.amazonlightsail.com/"+model_name+"/");
+    xhr.open("GET", "http://localhost:5000/"+model_name+"/");
     xhr.send();
 
     // handle response
@@ -293,8 +293,8 @@
     function addUser () {
         // Create an XMLHttpRequest POST request
         const xhr1 = new XMLHttpRequest();
-        xhr1.open("POST", "https://flask-service.1tmm8q60clfs6.us-east-1.cs.amazonlightsail.com/addUser/");
-        // xhr1.open("POST", "http://localhost:5000/addUser/");
+        // xhr1.open("POST", "https://flask-service.1tmm8q60clfs6.us-east-1.cs.amazonlightsail.com/addUser/");
+        xhr1.open("POST", "http://localhost:5000/addUser/");
         xhr1.setRequestHeader("Access-Control-Allow-Origin", "*");
         xhr1.setRequestHeader("Content-Type", "application/json");
         xhr1.setRequestHeader("Accept", "application/json");

@@ -3,7 +3,10 @@
 import numpy as np 
 from flask import Flask, jsonify, request
 from flask_cors import CORS
-from data_handling import get_model_prediction, save_user_data
+
+from data_handling.load_data import get_model_prediction
+from data_handling.save_data import save_user_data
+
 
 # Initialise the Flask app
 app = Flask(__name__)
@@ -46,4 +49,4 @@ def add_user():
 
 # Run the Flask app
 if __name__ == '__main__':
-    app.run(port=5000, debug=True)
+    app.run(host='127.0.0.1', port=5000)
