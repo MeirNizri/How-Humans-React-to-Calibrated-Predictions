@@ -1,5 +1,6 @@
-from datetime import datetime
 import gspread
+from datetime import datetime
+
 
 def save_user_data(user_data):
     """
@@ -36,3 +37,4 @@ def save_user_data(user_data):
     labels_test_sheet.append_row([user_id] + user_data["outcomeTest"])
     first_rate_sheet.append_row([user_id] + user_data["firstRate"])
     last_rate_sheet.append_row([user_id] + user_data["lastRate"])
+    

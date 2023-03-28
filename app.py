@@ -1,6 +1,6 @@
 # Creating a Flask application with two routes
 
-import numpy as np 
+import numpy as np
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 
@@ -45,8 +45,8 @@ def add_user():
     response = jsonify({'status': 'success'})
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response
-
+    
 
 # Run the Flask app
 if __name__ == '__main__':
-    app.run(host='127.0.0.1', port=5000)
+    app.run(host='0.0.0.0', port=5000, debug=True)
