@@ -4,8 +4,8 @@ import numpy as np
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 
-from data_handling.load_data import get_model_prediction
-from data_handling.save_data import save_user_data
+from data_utils.load_data import get_model_prediction
+from data_utils.save_data import save_user_data
 
 
 # Initialise the Flask app
