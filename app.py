@@ -1,9 +1,9 @@
 # Creating a Flask application with two routes
 
-from data_handling import get_model_prediction, save_user_data
+import numpy as np 
 from flask import Flask, jsonify, request
 from flask_cors import CORS
-import numpy as np
+from data_handling import get_model_prediction, save_user_data
 
 # Initialise the Flask app
 app = Flask(__name__)
