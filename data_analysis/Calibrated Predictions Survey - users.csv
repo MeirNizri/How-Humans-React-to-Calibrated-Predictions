@@ -1,0 +1,105 @@
+id,model_name,age,gender,occupation,review,time
+1,random,26,Male,developer,rain forecast prediction,2023-03-29 10:33:59.012400
+2,random,26,Female,MANAGER,I LIKE THIS SURVEY. THIS  IS INTERESTING SURVEY.,2023-03-29 10:39:48.303134
+3,random,51,Female,manger,good,2023-03-29 11:03:01.625644
+4,random,43,Female,BUSINESS,GOOD,2023-03-29 11:06:18.397375
+5,random,32,Female,Employee,evaluation of rain day.,2023-03-29 20:08:42.299530
+6,random,42,Male,Quality Assurance Analyst,To see if I would trust the weather report even after it got it wrong a few time.,2023-03-29 20:08:51.076372
+7,random,33,Female,Sales manager,how much I trust the weather forcast.,2023-03-29 20:08:52.520779
+8,random,73,Female,retired,Tests my decision making.,2023-03-29 20:10:07.393630
+9,random,24,Female,Health aid,To see if i trust weather predictions,2023-03-29 20:12:52.978626
+10,random,40,Male,Manager, Evaluation of rain forecast system in this survey.,2023-03-29 20:13:44.508162
+11,random,56,Female,health care,super,2023-03-29 20:13:50.472068
+12,random,44,Male,Accounts manager,evaluation ,2023-03-29 20:14:49.813570
+13,random,43,Male,Engineer,It was related to opinions,2023-03-29 20:36:42.637526
+14,random,36,Male,Warehouse manager,good,2023-03-29 20:39:46.911340
+15,random,52,Male,luthier,Interesting.,2023-03-29 20:43:02.659758
+16,random,26,Male,MANAGER,EVALUVATION,2023-03-29 20:52:34.545210
+17,random,28,Male,Healthcare,Interesting and guess the rain forecast,2023-03-29 20:54:19.049092
+18,random,40,Female,customer service,prediction success,2023-03-30 10:05:03.615395
+19,random,26,Female,TEACHER,good. very nice. I like it.,2023-03-30 10:10:04.067486
+20,random,26,Male,Software development,rain forest system,2023-03-30 10:14:25.663880
+21,random,28,Male,Assistant Manager,The survey was helpful about evaluation on rain forecast system .,2023-03-30 10:15:53.785118
+22,random,26,Male,Manager,The survey was about evaluation of rain forecast system.,2023-03-30 10:16:06.105291
+23,random,23,Male,ADMIN,evaluation of rain forecast system,2023-03-30 10:16:30.984441
+24,random,26,Male,software developer,nice,2023-03-30 10:16:53.965512
+25,random,37,Male,Manager,The survey was very interesting and very easy to done,2023-03-30 10:18:05.682210
+26,random,28,Male,Team Leader,This survey on evaluation of rain forecast system,2023-03-30 10:18:16.394270
+27,random,48,Male,Carpenter,The survey was easy to read and understand. Happy To Participate..,2023-03-30 10:25:14.284871
+28,random,25,Male,Manufacturing ,Very interesting,2023-03-30 10:37:43.637257
+29,random,38,Female,manager,interesting survey to predition,2023-03-30 11:23:36.979222
+30,random,44,Female,Manufacturing,good,2023-03-30 12:28:40.404758
+31,random,41,Female,Manager,The survey was helpful in evaluation of rain forecast system,2023-03-30 12:30:25.043803
+32,random,43,Female,manager,the survey is about evaluation of rain forecast system ,2023-03-30 12:31:13.885651
+33,random,31,Male,DATA,NICE,2023-03-30 12:35:02.642718
+34,random,26,Male,DATA,GOOD,2023-03-30 12:35:17.915800
+35,random,31,Female,Manager,This survey was helpful in evaluation if rain forecast system.,2023-03-30 12:35:27.295587
+36,random,28,Male,IT,good,2023-03-30 12:35:46.581731
+37,random,43,Male,Manager,The survey about evaluation of rain forecast system.,2023-03-30 12:35:50.504872
+38,random,31,Male,Software developer,This survey shows the model of the rain forecasting system that is essential for an early warning that can minimize risks to life and property.,2023-03-30 12:36:14.094648
+39,random,29,Male,Engineer,Difficult to analyze the rating.,2023-03-30 12:39:35.028920
+40,random,25,Female,Full Time Employee,Good,2023-03-30 12:40:06.445260
+41,random,36,Male,MANAGER,ITS VERY INTERSETING ,2023-03-30 12:49:45.354769
+42,random,26,Male,DATY,NICE,2023-03-30 12:57:47.493925
+43,random,38,Male,AMAZON MTURK,GOOD,2023-03-30 13:00:11.426774
+44,random,30,Male,software development,in the good and interesting weather detail understand it   ,2023-03-30 13:04:34.851997
+45,random,57,Male,MANAGER,THIS SURVEY EVALUATION OF RAIN FORECAST SYSTEM.,2023-03-30 13:07:02.712522
+46,random,31,Female,FULL TIME EMPLOYEE,PREDICTION ABOUT FORCAST SYSTEM,2023-03-30 13:29:21.575034
+47,random,33,Female,Sales manager,How much do I trust the weather forecast.,2023-04-11 02:03:57.602871
+48,random,51,Female,warehouse generalist,It was fun!,2023-04-11 02:04:18.854644
+49,random,26,Male,software developemnt,rain forecast system,2023-04-11 02:09:34.203662
+50,random,50,Male,IT procurement,"I think this survey is good, it didn't have any problems.",2023-04-11 02:09:42.779859
+51,random,37,Female,manager,very good,2023-04-11 02:22:21.273571
+52,random,57,Female,Administrative officer,This is about people trust towards AI. It was good experience. Thank you so much for this survey.,2023-04-11 02:53:48.909926
+53,random,31,Female,Educator- Higher Ed,It was fun.,2023-04-11 13:37:08.010409
+54,random,70,Female,optician,very engaging,2023-04-11 13:37:14.339037
+55,random,32,Male,IT,Survey was laid out clearly and overall enjoyable.,2023-04-11 13:37:40.327827
+56,random,31,Female,employed for wages,prediction about forecast system,2023-04-11 13:39:26.699656
+57,random,65,Female,Retired,Forecast Trusting,2023-04-11 13:39:26.981128
+58,random,36,Male,manager,evaluate the rain ,2023-04-11 13:39:32.978298
+59,random,45,Male,manager,"A survey on evaluation of rain forecast system.
+",2023-04-11 13:40:36.735323
+60,random,47,Male,researcher,assessment for a prediction system,2023-04-11 13:41:15.749004
+61,random,42,Female,Manager,Rain forecast,2023-04-11 13:41:39.873612
+62,random,26,Male,Software developer,evaluation of rain forecasting system.,2023-04-11 13:41:50.736288
+63,random,34,Female,Homemaker,Interesting,2023-04-11 13:42:17.534192
+64,random,32,Female,Health care,Evaluation of rain forecast system,2023-04-11 13:42:42.727209
+65,random,38,Female,Nurse,I thought it was interesting! I found it very convincing and I feel like it is a very believable weather predictor as it closely mirrors my experiences with weather predictors in real life. ,2023-04-11 13:43:40.080814
+66,random,54,Male,Accountant,I thought the weather prediction was not particularly strong.,2023-04-11 13:43:41.081036
+67,random,33,Male,FINANCIAL MENAGEMENT ,GOOD,2023-04-11 13:43:47.080136
+68,random,36,Male,healthcare,evaluation of the rain system ,2023-04-11 13:44:13.060406
+69,random,34,Female,Administrative Officer,The rain forecast system predicts.,2023-04-11 13:45:13.885548
+70,random,57,Male,sales manager,It was a moral ethics study.,2023-04-11 13:46:25.691906
+71,random,39,Female,Manager,this survey talk about evaluation survey,2023-04-11 13:46:45.994829
+72,random,32,Male,TEAM LEADER,IT IS GOOD,2023-04-11 13:46:53.197821
+73,random,45,Male,manager,"A survey on evaluation of rain forecast system.
+",2023-04-11 13:47:02.928436
+74,random,36,Female,Health care ,I think this survey is Evaluation of rain forecast system.,2023-04-11 13:47:41.755680
+75,random,31,Male,management,n/a,2023-04-11 13:49:24.406518
+76,random,37,Female,health care,Evaluation study,2023-04-11 13:49:40.158949
+77,random,34,Female,MANAGER,"This survey about  evaluation of rain forecast system.
+",2023-04-11 13:50:55.352979
+78,random,46,Male,MANAGER,THIS SURVEY IS ABOUT EVALUATION OF RAIN FORECAST SYSTEM,2023-04-11 13:51:04.898169
+79,random,40,Male,Purchasing manager,I have no idea. rain chances?,2023-04-11 13:51:21.867390
+80,random,38,Female,Manager,none,2023-04-11 13:51:32.806658
+81,random,45,Male,manager,"A survey on evaluation of rain forecast system.
+",2023-04-11 13:54:35.728817
+82,random,22,Female,Healthcare,I satisfied,2023-04-11 13:58:13.399636
+83,random,46,Female,Manager,none,2023-04-11 13:58:23.173406
+84,random,25,Male,Sales and business,Nothing,2023-04-11 13:58:27.300820
+85,random,34,Male,Retail,Fairly straightforward.,2023-04-11 13:59:35.917921
+86,random,29,Female,job,ok,2023-04-11 14:00:25.150726
+87,random,26,Female,it,wheather forecast ,2023-04-11 14:03:23.492463
+88,random,69,Female,Semiretired IT pro,"The system seemed less accurate when it was closer to 50% chance of rain (understandably.) Also, it could rain part of the day and be clear part of the day... how's that handled?",2023-04-11 14:10:44.388463
+89,random,26,Male,IT,good,2023-04-11 14:14:35.984414
+90,random,31,Male,manager,good,2023-04-11 14:43:15.529491
+91,random,34,Female,manager,good,2023-04-11 14:59:40.479389
+92,random,30,Female,Employee,rain day about.,2023-04-13 09:17:09.928274
+93,random,34,Male,INFORMATION TECHNOLOGY,I LIKE THIS SURVEY,2023-04-13 09:24:04.522583
+94,random,52,Male,MANAGER,THIS SURVEY WAS HELPFUL TO KNOW ABOUT THE RAINFALL FORECASTING.,2023-04-13 09:54:41.902596
+95,random,38,Male,information technology,Evaluation of rain forecast system,2023-04-13 09:59:04.860216
+96,random,62,Female,INFORMMATION TECHNOLOGY,EVALUATION OF RAIN FORECAST SYSTEM,2023-04-13 10:11:45.595955
+97,random,28,Male,IT,GOOD AND VERY INTERESTING.,2023-04-13 10:21:30.866204
+98,random,31,Male,data,nice,2023-04-13 10:22:06.005582
+99,random,45,Female,Technoloy,interesting task,2023-04-13 10:22:58.245309
+100,random,31,Male,business,good,2023-04-13 10:26:29.884627

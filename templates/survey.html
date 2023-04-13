@@ -1,5 +1,6 @@
 <!-- You must include this JavaScript file -->
 <script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+<script src="https://unpkg.com/mongodb@4.1.2/lib/index.js"></script>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 
@@ -173,6 +174,7 @@
 
 
 <script>
+
     // global variables
     let prediction = [];
     let outcome = [];
@@ -290,7 +292,7 @@
     }
 
     
-    function addUser () {
+    async function addUser () {
         // Create an XMLHttpRequest POST request
         const xhr1 = new XMLHttpRequest();
         // xhr1.open("POST", "https://flask-service.1tmm8q60clfs6.us-east-1.cs.amazonlightsail.com/addUser/");
@@ -324,6 +326,21 @@
                 console.log(response);
             }
         };
+
+        const { MongoClient } = require('mongodb');
+        let client;
+        try {
+            // connect to mongoDB 
+            const client = new MongoClient("mongodb+srv://root:a1234@cluster0.wmqvoo6.mongodb.net/test");
+            await client.connect();
+            const db = client.db('calibration_survey');
+            const collection = db.collection('users');
+
+            // insert data1 into the collection
+            await collection.insertOne(data1);
+        } finally {
+            await client.close();
+        }
     }
 
 
