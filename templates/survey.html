@@ -166,6 +166,15 @@
     </div>
 
 
+    <div id="input_arrays">
+        <input type="text" id="prediction_" name="prediction_" />
+        <input type="text" id="outcome_" name="outcome_"" />
+        <input type="text" id="firstRate_" name="firstRate_" />
+        <input type="text" id="lastRate_" name="lastRate_" />
+        <input type="text" id="predTest_" name="predTest_" />
+        <input type="text" id="outcomeTest_" name="outcomeTest_" />
+    </div>
+
 </crowd-form>
 </div>
 
@@ -184,9 +193,11 @@
     let outcomeTest = []
     let dayNum = 1;
 
-    // send request for data to flask server
-    let model_name = "random"
+    // let model_name = "random"
+    let model_name = "overconfident"
     // let model_name = "nn"
+
+    // send request for data to flask server
     const xhr = new XMLHttpRequest();
     // xhr.open("GET", "https://flask-service.1tmm8q60clfs6.us-east-1.cs.amazonlightsail.com/"+model_name+"/");
     xhr.open("GET", "http://localhost:5000/"+model_name+"/");
@@ -292,7 +303,14 @@
     }
 
     
-    async function addUser () {
+    function addUser () {
+        document.getElementById("prediction_").value = prediction;
+        document.getElementById("outcome_").value = outcome;
+        document.getElementById("firstRate_").value = firstRate;
+        document.getElementById("lastRate_").value = lastRate;
+        document.getElementById("predTest_").value = predTest;
+        document.getElementById("outcomeTest_").value = outcomeTest;
+
         // Create an XMLHttpRequest POST request
         const xhr1 = new XMLHttpRequest();
         // xhr1.open("POST", "https://flask-service.1tmm8q60clfs6.us-east-1.cs.amazonlightsail.com/addUser/");
@@ -326,21 +344,6 @@
                 console.log(response);
             }
         };
-
-        const { MongoClient } = require('mongodb');
-        let client;
-        try {
-            // connect to mongoDB 
-            const client = new MongoClient("mongodb+srv://root:a1234@cluster0.wmqvoo6.mongodb.net/test");
-            await client.connect();
-            const db = client.db('calibration_survey');
-            const collection = db.collection('users');
-
-            // insert data1 into the collection
-            await collection.insertOne(data1);
-        } finally {
-            await client.close();
-        }
     }
 
 
@@ -484,6 +487,10 @@
     }
 
     #demographics {
+        display: none;
+    }
+
+    #input_arrays {
         display: none;
     }
     

@@ -1,7 +1,6 @@
 Flask
 Flask_Cors
 gspread
-pymongo
 # keras
 numpy
 pandas

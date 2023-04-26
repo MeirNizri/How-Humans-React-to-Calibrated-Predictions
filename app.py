@@ -5,7 +5,7 @@ from flask import Flask, jsonify, request
 from flask_cors import CORS
 
 from data_utils.load_data import get_model_prediction
-from data_utils.save_data import save_user_data_gspread, save_user_data_mongo
+from data_utils.save_data import save_user_data_gspread
 
 
 # Initialise the Flask app
@@ -40,7 +40,6 @@ def add_user():
     # Get the data from the POST request and try to save it to a gspread sheet
     # if an error accured save it to a mongo database for backup
     data = request.get_json()
-    save_user_data_mongo(data)
     save_user_data_gspread(data)
 
     # Send a success message back to the client
