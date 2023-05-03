@@ -1,5 +1,6 @@
 import numpy as np
 import random
+from data_utils.prospect_theory import inverse_probability_weighting
 # from models import RainNN
 
 
@@ -10,8 +11,7 @@ def get_model_prediction(model_name="rain_nn", num_samples=20):
     :param num_samples: number of samples to predict
     :return: y_pred, y - model prediction and true label
     """
-
-    if model_name == "random":
+    if model_name == "perfect(uniform)":
         # sample random probabilities 
         y_pred = np.random.random(num_samples)
 
@@ -21,8 +21,7 @@ def get_model_prediction(model_name="rain_nn", num_samples=20):
             binary_list.append(random.choices([0,1], weights=[1-prob, prob])[0])
         y = np.array(binary_list)
     
-
-    elif model_name == "overconfident":
+    elif model_name == "ignorant(high-low)":
         # sample random probabilities between 0-0.25 and 0.75-1
         y_pred = np.random.uniform(0, 0.5, size=num_samples)
         y_pred[y_pred > 0.25] += 0.5
@@ -30,7 +29,17 @@ def get_model_prediction(model_name="rain_nn", num_samples=20):
         # choose 0 or 1 randomly
         y = np.random.randint(0, 2, size=num_samples)
 
-        
+    elif model_name == "PT_calibrated(uniform)":
+        # sample random probabilities and add prospect theory weighting
+        random_pred = np.random.random(num_samples)
+        y_pred = inverse_probability_weighting(random_pred)
+
+        # choose binary values according to the probabilities
+        binary_list = []
+        for prob in random_pred:
+            binary_list.append(random.choices([0,1], weights=[prob, 1-prob])[0])
+        y = np.array(binary_list)
+
     # elif model_name == "rain_nn":
     #     # Load the data and instantiate the models
     #     rain_nn = RainNN()
@@ -41,6 +50,5 @@ def get_model_prediction(model_name="rain_nn", num_samples=20):
     #     X = days_to_predict.drop(["RainTomorrow"], axis=1)
     #     y = days_to_predict["RainTomorrow"]
     #     y_pred = rain_nn.predict(X).reshape(-1)
-
 
     return y_pred, y

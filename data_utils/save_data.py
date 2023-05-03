@@ -1,7 +1,6 @@
 import gspread
 from datetime import datetime
 
-
 def save_user_data_gspread(user_data):
     """
     Save user data to a google sheet using gspread

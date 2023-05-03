@@ -99,3 +99,96 @@ id,day_1,day_2,day_3,day_4,day_5,day_6,day_7,day_8,day_9,day_10,day_11,day_12,da
 98,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
 99,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,No,No,No,No,Yes,No,Yes,Yes,Yes
 100,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+101,No,No,No,Yes,Yes,No,No,No,No,No,No,Yes,No,No,Yes,Yes,No,No,Yes,Yes
+102,No,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes,No,I don't remember,Yes,No,Yes,Yes,Yes,Yes,No
+103,No,No,No,Yes,Yes,Yes,Yes,No,No,No,Yes,No,No,Yes,Yes,No,Yes,No,No,Yes
+104,Yes,No,No,Yes,No,No,No,No,Yes,No,No,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Yes
+105,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,Yes,Yes,No,Yes,No,No,No,Yes,No
+106,Yes,No,No,Yes,Yes,Yes,No,No,No,Yes,No,No,Yes,No,No,No,No,No,No,No
+107,No,I don't remember,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,No,No,No,No,Yes
+108,Yes,Yes,No,No,No,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,No,No,Yes,Yes,Yes,Yes
+109,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+110,Yes,Yes,Yes,No,Yes,No,No,Yes,No,Yes,Yes,Yes,No,No,Yes,Yes,No,No,Yes,No
+111,No,Yes,Yes,No,No,No,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes
+112,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,No,No,Yes,Yes,Yes,No,Yes
+113,No,No,Yes,Yes,No,Yes,No,No,No,Yes,No,No,Yes,No,Yes,No,No,No,Yes,Yes
+114,Yes,No,No,Yes,Yes,No,No,Yes,Yes,No,Yes,Yes,No,No,No,No,No,Yes,No,No
+115,Yes,No,Yes,No,No,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,No,No,No,No,Yes
+116,Yes,No,No,No,No,Yes,No,No,No,Yes,Yes,No,No,No,No,Yes,No,No,Yes,No
+117,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,No,No,Yes,No,Yes,Yes,Yes,I don't remember,Yes,No,Yes
+118,Yes,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+119,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes
+120,Yes,No,Yes,No,Yes,No,No,Yes,No,No,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes
+121,Yes,No,No,No,Yes,No,Yes,No,Yes,Yes,No,No,Yes,Yes,No,No,No,No,Yes,Yes
+122,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+123,Yes,No,No,No,Yes,No,No,Yes,No,No,No,Yes,No,Yes,No,Yes,Yes,Yes,Yes,No
+124,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,I don't remember,No,No,No,No
+125,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes,No,Yes,I don't remember,Yes,Yes,No,No,Yes,No,Yes,Yes
+126,No,Yes,No,Yes,No,Yes,Yes,No,Yes,Yes,No,No,Yes,Yes,No,Yes,No,Yes,No,No
+127,Yes,Yes,Yes,Yes,No,Yes,No,No,Yes,Yes,Yes,Yes,Yes,No,No,Yes,No,No,Yes,No
+128,Yes,No,No,No,Yes,No,No,No,Yes,No,Yes,No,No,Yes,Yes,No,Yes,Yes,Yes,No
+129,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+130,Yes,No,Yes,No,No,Yes,Yes,Yes,No,No,Yes,No,No,Yes,Yes,Yes,No,Yes,Yes,No
+131,No,Yes,Yes,Yes,No,Yes,No,Yes,No,No,No,Yes,Yes,No,No,Yes,No,No,No,No
+132,No,No,No,No,No,Yes,Yes,Yes,Yes,No,Yes,Yes,No,No,No,No,Yes,Yes,No,No
+133,Yes,No,Yes,Yes,No,Yes,No,No,Yes,Yes,Yes,No,Yes,No,No,Yes,No,Yes,No,No
+134,Yes,No,No,No,Yes,No,No,No,No,No,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,No
+135,Yes,No,Yes,Yes,Yes,Yes,Yes,I don't remember,Yes,No,No,No,No,Yes,Yes,No,No,No,No,I don't remember
+136,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,No,No,Yes,Yes
+137,Yes,No,Yes,No,Yes,No,Yes,Yes,No,No,Yes,No,No,Yes,Yes,Yes,No,I don't remember,Yes,Yes
+138,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,No,No
+139,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes
+140,No,No,No,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,No,No,No,Yes
+141,Yes,No,Yes,Yes,Yes,Yes,No,Yes,No,No,No,Yes,No,No,No,No,No,Yes,Yes,Yes
+142,No,No,Yes,Yes,No,No,Yes,Yes,No,No,Yes,No,Yes,Yes,No,No,Yes,No,Yes,No
+143,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,Yes,Yes,No,No,No,No
+144,Yes,No,Yes,No,Yes,Yes,Yes,No,No,No,Yes,No,No,No,Yes,No,Yes,No,No,Yes
+145,Yes,Yes,No,Yes,No,No,No,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No,No,No
+146,No,No,No,No,No,No,Yes,Yes,Yes,Yes,No,Yes,No,No,No,No,Yes,No,No,Yes
+147,No,No,No,Yes,Yes,Yes,No,Yes,No,No,Yes,No,Yes,Yes,No,No,No,Yes,No,Yes
+148,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+149,Yes,No,Yes,Yes,Yes,Yes,No,No,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Yes
+150,Yes,Yes,No,Yes,No,No,No,Yes,No,No,No,Yes,Yes,Yes,No,Yes,Yes,No,Yes,No
+151,Yes,Yes,Yes,No,No,No,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,No,No,No,No,No
+152,Yes,No,No,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,Yes,No,Yes,Yes,No,No,Yes,Yes
+153,Yes,Yes,No,No,No,No,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No
+154,Yes,Yes,No,Yes,Yes,Yes,Yes,No,No,No,No,Yes,No,No,Yes,Yes,Yes,No,No,No
+155,Yes,No,Yes,No,No,Yes,No,No,No,No,No,No,Yes,Yes,Yes,Yes,Yes,No,Yes,No
+156,No,No,No,No,No,Yes,No,Yes,No,No,No,No,No,Yes,No,No,Yes,Yes,Yes,Yes
+157,Yes,Yes,Yes,Yes,No,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes,No
+158,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,No,Yes,Yes,No,Yes,Yes,No
+159,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,No,Yes
+160,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,No,No,No,No,Yes,Yes,Yes,No,Yes,No,No
+161,Yes,Yes,No,No,Yes,No,Yes,No,Yes,Yes,No,No,No,Yes,No,Yes,No,Yes,Yes,No
+162,Yes,Yes,Yes,No,No,No,Yes,Yes,No,No,No,No,No,Yes,No,No,No,Yes,Yes,Yes
+163,No,No,Yes,No,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,No,No,Yes,No,Yes,No,No
+164,Yes,No,No,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes
+165,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Yes,No,Yes,No,Yes,No,Yes,Yes
+166,No,Yes,No,Yes,No,No,No,Yes,Yes,Yes,Yes,No,I don't remember,Yes,No,No,No,Yes,Yes,No
+167,Yes,Yes,No,Yes,Yes,No,Yes,No,No,Yes,Yes,No,No,No,Yes,No,No,Yes,No,No
+168,Yes,Yes,No,I don't remember,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+169,Yes,No,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes
+170,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,Yes,Yes,No
+171,No,Yes,Yes,No,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No,No,Yes,No,Yes
+172,No,Yes,Yes,Yes,Yes,No,No,No,Yes,No,No,Yes,Yes,No,Yes,No,No,No,Yes,Yes
+173,No,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,No,No,Yes
+174,No,No,Yes,No,No,No,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,No,No,No,No
+175,No,Yes,Yes,No,No,Yes,No,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No
+176,No,Yes,Yes,No,No,No,No,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+177,No,No,No,No,Yes,No,No,Yes,No,I don't remember,Yes,No,Yes,Yes,No,No,No,Yes,Yes,Yes
+178,Yes,No,No,No,Yes,Yes,No,No,Yes,Yes,Yes,No,No,No,No,Yes,Yes,Yes,Yes,Yes
+179,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+180,No,Yes,No,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,No,No,Yes,Yes,Yes,Yes
+181,No,No,No,Yes,Yes,No,Yes,No,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes,Yes
+182,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No
+183,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes,Yes,No,No,No,No,Yes,No,No,Yes
+184,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,No,No,No,Yes,Yes,No,Yes,Yes,Yes
+185,Yes,No,No,No,No,Yes,No,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,No,Yes,Yes,No
+186,No,Yes,No,No,No,Yes,No,Yes,Yes,Yes,No,No,Yes,Yes,No,Yes,No,Yes,I don't remember,Yes
+187,Yes,Yes,Yes,Yes,No,Yes,Yes,No,No,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+188,No,No,Yes,No,Yes,No,No,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,No,No,Yes,No
+189,Yes,Yes,No,No,Yes,Yes,Yes,No,No,Yes,No,No,Yes,Yes,Yes,No,Yes,No,No,No
+190,Yes,No,No,No,Yes,No,Yes,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,No
+191,No,Yes,No,No,Yes,Yes,Yes,Yes,No,No,Yes,No,Yes,Yes,Yes,No,Yes,Yes,No,Yes
+192,No,No,No,No,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,Yes,No
+193,No,No,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,I don't remember,Yes,Yes,No,Yes

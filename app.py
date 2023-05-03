@@ -37,8 +37,7 @@ def get_rainfall(model_name):
 # Function to receive an array of data and save it to a gspread sheet
 @app.route("/addUser/", methods=["POST"])
 def add_user():
-    # Get the data from the POST request and try to save it to a gspread sheet
-    # if an error accured save it to a mongo database for backup
+    # Get the data from the POST request and save it to a gspread sheet
     data = request.get_json()
     save_user_data_gspread(data)
 

@@ -1,6 +1,5 @@
 <!-- You must include this JavaScript file -->
 <script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
-<script src="https://unpkg.com/mongodb@4.1.2/lib/index.js"></script>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 
@@ -108,7 +107,7 @@
             </h5>
 
             <h5>
-                Now, please rate how much do you trust the system.
+                Please rate how much do you trust the system overall.
                 Use a scale from 1 (not at all) to 7 (very much).
             </h5>
             <input type="range" class="slider" id="lastRate" name="lastRate" min="1" max="7" value="4"
@@ -193,14 +192,14 @@
     let outcomeTest = []
     let dayNum = 1;
 
-    // let model_name = "random"
-    let model_name = "overconfident"
-    // let model_name = "nn"
+    // let model_name = "perfect(uniform)"
+    // let model_name = "ignorant(high-low)"
+    let model_name = "PT_calibrated(uniform)"
 
     // send request for data to flask server
     const xhr = new XMLHttpRequest();
     // xhr.open("GET", "https://flask-service.1tmm8q60clfs6.us-east-1.cs.amazonlightsail.com/"+model_name+"/");
-    xhr.open("GET", "http://localhost:5000/"+model_name+"/");
+    xhr.open("GET", "http://127.0.0.1:5000/"+model_name+"/");
     xhr.send();
 
     // handle response
@@ -262,7 +261,6 @@
         // check if all fields are filled and correct
         let predTestVal = document.getElementById("predTest").value;
         let outcomeTestVal = document.getElementById("outcomeTest").value;
-        // 
         if (predTestVal == "" || outcomeTestVal == "-Select-" || outcomeTestVal == "") {
             document.getElementById("emptyInput").innerHTML = "Please fill in all fields.";
             return;
@@ -274,7 +272,7 @@
         lastRate.push(document.getElementById("lastRate").value);
 
         dayNum += 1;
-        if (dayNum <= 3) {
+        if (dayNum <= 2) {
             // update day number
             let dayNumInstances = document.getElementsByClassName("dayNum");
             for (var i = 0; i < dayNumInstances.length; i++) {
@@ -314,7 +312,7 @@
         // Create an XMLHttpRequest POST request
         const xhr1 = new XMLHttpRequest();
         // xhr1.open("POST", "https://flask-service.1tmm8q60clfs6.us-east-1.cs.amazonlightsail.com/addUser/");
-        xhr1.open("POST", "http://localhost:5000/addUser/");
+        xhr1.open("POST", "http://127.0.0.1:5000/addUser/");
         xhr1.setRequestHeader("Access-Control-Allow-Origin", "*");
         xhr1.setRequestHeader("Content-Type", "application/json");
         xhr1.setRequestHeader("Accept", "application/json");
@@ -336,14 +334,6 @@
 
         // Send the JSON data to the server
         xhr1.send(JSON.stringify(data1));
-
-        // Listen for the response from the server
-        xhr1.onload = function() {
-            if (xhr1.status === 200) {
-                const response = JSON.parse(xhr1.responseText);
-                console.log(response);
-            }
-        };
     }
 
 
