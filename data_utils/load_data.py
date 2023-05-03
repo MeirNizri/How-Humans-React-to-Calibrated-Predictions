@@ -37,7 +37,7 @@ def get_model_prediction(model_name="rain_nn", num_samples=20):
         # choose binary values according to the probabilities
         binary_list = []
         for prob in random_pred:
-            binary_list.append(random.choices([0,1], weights=[prob, 1-prob])[0])
+            binary_list.append(random.choices([0,1], weights=[1-prob, prob])[0])
         y = np.array(binary_list)
 
     # elif model_name == "rain_nn":
