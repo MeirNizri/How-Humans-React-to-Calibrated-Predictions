@@ -1,8 +1,9 @@
+numpy
+pandas
+pickle
 Flask
 Flask_Cors
 gspread
-# keras
-numpy
-pandas
 scikit_learn
+# keras
 # tensorflow

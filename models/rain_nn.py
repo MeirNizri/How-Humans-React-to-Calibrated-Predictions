@@ -23,21 +23,21 @@ class RainNN:
         model_path = os.path.join(os.path.dirname(__file__), 'rain_nn.h5')
 
         if os.path.exists(model_path):
-            self.model =load_model(model_path)
+            self.model = load_model(model_path)
             print("Model loaded from disk")
         else:
-            self.train()
+            self.fit()
             print("Model trained and saved to disk")
         
 
-    def train(self):
+    def fit(self):
         """
         Train the neural network model and save it to disk.
         """
 
         # Reading the datasets and splitting into X and y
-        train_df = pd.read_csv("dataset\cleaned_weatherAUS_train.csv")
-        test_df = pd.read_csv("dataset\cleaned_weatherAUS_test.csv")
+        train_df = pd.read_csv("datasets/cleaned_weatherAUS_train.csv")
+        test_df = pd.read_csv("datasets/cleaned_weatherAUS_test.csv")
         X_train = train_df.drop(["RainTomorrow"], axis=1)
         y_train = train_df["RainTomorrow"]
         X_test = test_df.drop(["RainTomorrow"], axis=1)
@@ -85,7 +85,6 @@ class RainNN:
 
         # 1st survey: to pick probability between 0-0.25 or 0.75-1, and the outcome will be 0 or 1 randomly.
         # 2nd survey:70% accuracy on test set without calibration
-
 
 
     def predict(self, X):
