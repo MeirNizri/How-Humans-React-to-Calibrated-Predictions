@@ -1,9 +1,12 @@
 numpy
 pandas
-pickle
+seaborn
+joblib
 Flask
 Flask_Cors
 gspread
 scikit_learn
-# keras
+scikit_plot
+tabulate
+keras
 # tensorflow

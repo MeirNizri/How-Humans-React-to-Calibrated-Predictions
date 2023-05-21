@@ -50,7 +50,7 @@ class RainNN:
         #     patience=20, # how many epochs to wait before stopping
         #     restore_best_weights=True,
         # )
-
+        
         # Initializing the NN and adding the input layers
         self.model = Sequential()
         self.model.add(Dense(units = 32, kernel_initializer = 'uniform', activation = 'relu', input_dim = 26))
@@ -62,14 +62,14 @@ class RainNN:
         self.model.add(Dense(units = 1, kernel_initializer = 'uniform', activation = 'sigmoid'))
 
         # Compiling the NN
-        opt = Adam(learning_rate=0.00009)
+        opt = Adam(learning_rate=0.001)
         self.model.compile(optimizer = opt, loss = 'binary_crossentropy', metrics = ['accuracy'])
 
         # Train the NN
         self.model.fit(X_train, 
                        y_train, 
                        batch_size = 32, 
-                       epochs = 200, 
+                       epochs = 10, 
                     #    callbacks=[early_stopping], 
                        validation_data=(X_validation, y_validation))
         
