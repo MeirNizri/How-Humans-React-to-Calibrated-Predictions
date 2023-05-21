@@ -1,5 +1,5 @@
 import os
-import pickle
+import joblib
 import pandas as pd
 from calibration import PlattScaling, OnlinePlattScaling
 
@@ -15,8 +15,8 @@ def calibrate_rain_nn(model, method):
     # If calibrated model already exists, load and return it
     model_path = os.path.join(os.path.dirname(__file__), 'rain_nn_'+method+'.pkl')
     if os.path.exists(model_path):
-        with open(model_path, "rb") as file:
-            calibrated_model = pickle.load(file)
+        with open(model_path, "rb") as path:
+            calibrated_model = joblib.load(path)
         return calibrated_model
     
     # Load data
@@ -33,7 +33,7 @@ def calibrate_rain_nn(model, method):
         calibrated_model = PlattScaling(model, X, y)
 
     # Save calibrated model
-    with open(model_path, "wb") as file:
-        pickle.dump(calibrated_model, file)
+    with open(model_path, "wb") as path:
+        joblib.dump(calibrated_model, path)
     
     return calibrated_model 

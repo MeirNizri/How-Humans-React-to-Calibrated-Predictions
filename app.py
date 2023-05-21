@@ -1,5 +1,3 @@
-# Creating a Flask application with two routes
-
 import numpy as np
 from flask import Flask, jsonify, request
 from flask_cors import CORS
@@ -14,10 +12,10 @@ CORS(app)
 
 
 # Function to get 20 random rainfall model forecasts and their true label
-@app.route("/<model_name>/")
-def get_rainfall(model_name):
+@app.route("/<model_name>/<num_days>/")
+def get_rainfall(model_name, num_days):
     # Get the model prediction and true label
-    y_pred, y = get_model_prediction(model_name=model_name, num_samples=20)
+    y_pred, y = get_model_prediction(model_name=model_name, num_samples=int(num_days))
 
     # Convert the predictions to integers and convert to list
     y_pred = np.rint(y_pred*100).astype(int)

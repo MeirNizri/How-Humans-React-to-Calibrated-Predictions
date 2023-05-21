@@ -7,7 +7,7 @@ class OnlinePlattScaling:
     Class for performing Online Platt Scaling with Calibeating (OPS).
     """
 
-    def __init__(self, model, X, y):
+    def __init__(self, model, X, y, num_bins=10):
         """
         Perform Online Platt Scaling with Calibeating on the given model.
         :param model: The model to calibrate
@@ -16,11 +16,10 @@ class OnlinePlattScaling:
         """
 
         # Perform Platt scaling on the given model
-        self.cal_model = PlattScaling(model, X, y)
-        cal_probs = self.cal_model.predict(X)
+        self.ps_model = PlattScaling(model, X, y)
+        cal_probs = self.ps_model.predict(X)
 
         # Create bins for calibeating
-        num_bins = 10
         self.bin_edges = np.linspace(0, 1, num_bins + 1)
         self.bin_avg = np.zeros(num_bins)
 
@@ -33,8 +32,11 @@ class OnlinePlattScaling:
 
             # Calculate the average of true predictions in the bin
             bin_values = y[bin_indices]
-            self.bin_avg[i] = np.mean(bin_values)
-        
+            if len(bin_values) != 0:
+                self.bin_avg[i] = np.mean(bin_values)
+            else:
+                self.bin_avg[i] = (bin_start + bin_end) / 2
+
     def predict(self, X):
         """
         Return the OPS predictions on the data.
@@ -42,16 +44,15 @@ class OnlinePlattScaling:
         :return: calibrated probability for each sample in X 
         """
         # Get the model's predictions on the data
-        p = self.cal_model.predict(X)
-        p = p.reshape(-1, 1)
+        ps_probs = self.ps_model.predict(X)
+        ps_probs = ps_probs.reshape(-1, 1) 
 
         # Calibeate the predictions
-        cal_preds = np.zeros(len(p))
-        for i in range(len(p)):
+        cal_probs = np.zeros(len(ps_probs))
+        for i in range(len(ps_probs)):
             # Find the bin that the prediction falls into
-            bin_index = np.digitize(p[i], self.bin_edges) - 1
+            bin_index = np.digitize(ps_probs[i], self.bin_edges) - 1
 
             # Set the calibrated prediction to the average of the bin
-            cal_preds[i] = self.bin_avg[bin_index]
-
-        return cal_preds
+            cal_probs[i] = self.bin_avg[bin_index]
+        return cal_probs

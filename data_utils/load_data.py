@@ -49,20 +49,23 @@ def get_model_prediction(model_name, num_samples=20):
     elif model_name == "nn":
         # Create nn model and get model prediction and true label for given number of samples
         rain_nn = RainNN()
-        y_pred, y = get_nn_prediction(rain_nn, num_samples)
+        X, y = get_samples(num_samples)
+        y_pred = rain_nn.predict(X).reshape(-1)
 
     elif model_name == "nn_ops_calibrated":
         # Create calibrated model
         rain_nn = RainNN()
         calibrated_rain_nn = calibrate_rain_nn(rain_nn, "ops")
 
-        # Get calibrtated model prediction and true label for given number of samples
-        y_pred, y = get_nn_prediction(calibrated_rain_nn, num_samples)
+        # Get model prediction and true label for given number of samples
+        X, y = get_samples(num_samples)
+        y_pred = calibrated_rain_nn.predict(X).reshape(-1)
 
     elif model_name == "nn_pt_calibrated":
         # Create nn model and get model prediction and true label for given number of samples
         rain_nn = RainNN()
-        y_pred, y = get_nn_prediction(rain_nn, num_samples)
+        X, y = get_samples(num_samples)
+        y_pred = calibrated_rain_nn.predict(X).reshape(-1)
  
         # add prospect theory weighting
         y_pred = inverse_probability_weighting(y_pred)
@@ -70,19 +73,13 @@ def get_model_prediction(model_name, num_samples=20):
     return y_pred, y
 
 
-def get_nn_prediction(nn_model, num_samples=20):
+def get_samples(num_samples=20):
     """
-    Get model prediction and true label for given number of samples.
-    :param nn_model: neural network model to use
+    Get random samples from the dataset.
     :param num_samples: number of samples to predict
     """
-    
-    # Sample random samples from the dataset and 
     days_to_predict = weather_df.sample(num_samples)
     X = days_to_predict.drop(["RainTomorrow"], axis=1)
     y = days_to_predict["RainTomorrow"]
 
-    # Get model prediction
-    y_pred = nn_model.predict(X).reshape(-1)
-
-    return y_pred, y
+    return X, y

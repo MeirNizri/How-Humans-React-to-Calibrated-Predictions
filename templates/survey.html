@@ -191,6 +191,7 @@
     let predTest = []
     let outcomeTest = []
     let dayNum = 1;
+    let numDays = 5;
 
     // let model_name = "perfect(uniform)"
     // let model_name = "ignorant(high-low)"
@@ -202,7 +203,7 @@
     // send request for data to flask server
     const xhr = new XMLHttpRequest();
     // xhr.open("GET", "https://flask-service.1tmm8q60clfs6.us-east-1.cs.amazonlightsail.com/"+model_name+"/");
-    xhr.open("GET", "http://127.0.0.1:5000/"+model_name+"/");
+    xhr.open("GET", "http://127.0.0.1:5000/"+model_name+"/"+numDays+"/");
     xhr.send();
 
     // handle response
@@ -275,7 +276,7 @@
         lastRate.push(document.getElementById("lastRate").value);
 
         dayNum += 1;
-        if (dayNum <= 2) {
+        if (dayNum <= numDays) {
             // update day number
             let dayNumInstances = document.getElementsByClassName("dayNum");
             for (var i = 0; i < dayNumInstances.length; i++) {

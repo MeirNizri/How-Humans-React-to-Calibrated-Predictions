@@ -24,9 +24,10 @@ class RainNN:
 
         if os.path.exists(model_path):
             self.model = load_model(model_path)
-            print("Model loaded from disk")
         else:
             self.fit()
+            self.evaluate()
+            self.model.save(model_path)
             print("Model trained and saved to disk")
         
 
@@ -37,11 +38,11 @@ class RainNN:
 
         # Reading the datasets and splitting into X and y
         train_df = pd.read_csv("datasets/cleaned_weatherAUS_train.csv")
-        test_df = pd.read_csv("datasets/cleaned_weatherAUS_test.csv")
+        validation_df = pd.read_csv("datasets/cleaned_weatherAUS_validation.csv")
         X_train = train_df.drop(["RainTomorrow"], axis=1)
         y_train = train_df["RainTomorrow"]
-        X_test = test_df.drop(["RainTomorrow"], axis=1)
-        y_test = test_df["RainTomorrow"]
+        X_validation = validation_df.drop(["RainTomorrow"], axis=1)
+        y_validation = validation_df["RainTomorrow"]
 
         # Early stopping
         # early_stopping = callbacks.EarlyStopping(
@@ -70,7 +71,14 @@ class RainNN:
                        batch_size = 32, 
                        epochs = 200, 
                     #    callbacks=[early_stopping], 
-                       validation_split=0.2)
+                       validation_data=(X_validation, y_validation))
+        
+
+    def evaluate(self):
+        # Reading the test dataset and splitting into X and y
+        test_df = pd.read_csv("datasets/cleaned_weatherAUS_test.csv")
+        X_test = test_df.drop(["RainTomorrow"], axis=1)
+        y_test = test_df["RainTomorrow"]
 
         # Predicting the test set results
         y_pred = self.model.predict(X_test)
@@ -79,12 +87,6 @@ class RainNN:
         # print confusion matrix classification_report
         print(confusion_matrix(y_test, y_pred))
         print(classification_report(y_test, y_pred))
-
-        # save the model to file
-        self.model.save('models/rain_nn.h5')
-
-        # 1st survey: to pick probability between 0-0.25 or 0.75-1, and the outcome will be 0 or 1 randomly.
-        # 2nd survey:70% accuracy on test set without calibration
 
 
     def predict(self, X):
