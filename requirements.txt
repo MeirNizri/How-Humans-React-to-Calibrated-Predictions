@@ -8,5 +8,3 @@ gspread
 scikit_learn
 scikit_plot
 tabulate
-keras
-# tensorflow

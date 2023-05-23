@@ -1,7 +1,7 @@
 import os
 import joblib
 import pandas as pd
-from calibration import PlattScaling, OnlinePlattScaling
+from calibration import platt_scaling, isotonic_regression, OnlinePlattScaling
 
 
 def calibrate_rain_nn(model, method):
@@ -30,7 +30,11 @@ def calibrate_rain_nn(model, method):
 
     elif method == "ps":
         # Perform platt scaling
-        calibrated_model = PlattScaling(model, X, y)
+        calibrated_model = platt_scaling(model, X, y)
+
+    elif method == "ir":
+        # Perform isotonic regression
+        calibrated_model = isotonic_regression(model, X, y)
 
     # Save calibrated model
     with open(model_path, "wb") as path:
