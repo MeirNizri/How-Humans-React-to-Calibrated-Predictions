@@ -20,13 +20,12 @@ def rain_nn():
     y_train = train_df["RainTomorrow"]
 
     # Initializing the NN
-    model = MLPClassifier(hidden_layer_sizes=(32, 32, 16, 8),
+    model = MLPClassifier(hidden_layer_sizes=(64, 32, 16, 8),
                           activation='relu',
                           learning_rate_init=0.0001,
                           batch_size=32,
                           solver='adam',
-                          max_iter=200,
-                          random_state=42,
+                          max_iter=50,
                           verbose=True)
 
     # Training the NN

@@ -46,8 +46,7 @@ class OnlinePlattScaling:
         :return: calibrated probability for each sample in X 
         """
         # Get the model's predictions on the data
-        ps_probs = self.ps_model.predict_proba(X)[:, 1]
-        ps_probs = ps_probs.reshape(-1, 1) 
+        ps_probs = self.ps_model.predict_proba(X)[:, 1].reshape(-1)
 
         # Calibeate the predictions
         cal_probs = np.zeros((len(ps_probs),2))

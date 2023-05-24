@@ -59,7 +59,7 @@ def get_model_prediction(model_name, num_samples=20):
 
         # Get model prediction and true label for given number of samples
         X, y = get_samples(num_samples)
-        y_pred = calibrated_rain_nn.predict(X).reshape(-1)
+        y_pred = calibrated_rain_nn.predict_proba(X)[:, 1].reshape(-1)
 
     elif model_name == "nn_pt_calibrated":
         # Create nn model and get model prediction and true label for given number of samples
@@ -77,7 +77,7 @@ def get_model_prediction(model_name, num_samples=20):
 
         # Get model prediction and true label for given number of samples
         X, y = get_samples(num_samples)
-        y_pred = calibrated_rain_nn.predict(X).reshape(-1)
+        y_pred = calibrated_rain_nn.predict_proba(X)[:, 1].reshape(-1)
 
     return y_pred, y
 
