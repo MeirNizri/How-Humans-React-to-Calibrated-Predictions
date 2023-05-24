@@ -25,7 +25,7 @@ def rain_nn():
                           learning_rate_init=0.0001,
                           batch_size=32,
                           solver='adam',
-                          max_iter=50,
+                          max_iter=200,
                           verbose=True)
 
     # Training the NN
