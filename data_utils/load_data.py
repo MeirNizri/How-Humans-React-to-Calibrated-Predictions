@@ -61,15 +61,6 @@ def get_model_prediction(model_name, num_samples=20):
         X, y = get_samples(num_samples)
         y_pred = calibrated_rain_nn.predict_proba(X)[:, 1].reshape(-1)
 
-    elif model_name == "nn_pt_calibrated":
-        # Create nn model and get model prediction and true label for given number of samples
-        rain_nn = rain_nn()
-        X, y = get_samples(num_samples)
-        y_pred = rain_nn.predict_proba(X)[:, 1].reshape(-1)
- 
-        # add prospect theory weighting
-        y_pred = inverse_probability_weighting(y_pred)
-
     elif model_name == "nn_ir_calibrated":
         # Create calibrated model
         rain_nn = rain_nn()
@@ -78,6 +69,17 @@ def get_model_prediction(model_name, num_samples=20):
         # Get model prediction and true label for given number of samples
         X, y = get_samples(num_samples)
         y_pred = calibrated_rain_nn.predict_proba(X)[:, 1].reshape(-1)
+
+    elif model_name == "nn_pt_calibrated":
+        # Create nn model and get model prediction and true label for given number of samples
+        rain_nn = rain_nn()
+        calibrated_rain_nn = calibrate_rain_nn(rain_nn, "ir")
+
+        X, y = get_samples(num_samples)
+        y_pred = calibrated_rain_nn.predict_proba(X)[:, 1].reshape(-1)
+ 
+        # add prospect theory weighting
+        y_pred = inverse_probability_weighting(y_pred)
 
     return y_pred, y
 

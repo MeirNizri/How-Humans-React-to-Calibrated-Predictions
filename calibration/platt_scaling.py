@@ -7,6 +7,9 @@ def platt_scaling(model, X, y):
     :param model: The model to perform Platt scaling on
     :param X: Held-out calibration data, usually the validation set
     :param y: labels of X
+
+    Returns:
+        object: Calibrated model with Platt scaling.
     """
 
     # Fit a logistic regression model to the data
