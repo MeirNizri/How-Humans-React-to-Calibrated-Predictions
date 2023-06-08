@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 from calibration import inverse_probability_weighting
-from models import rain_nn, calibrate_rain_nn
+from models import get_rain_nn, calibrate_rain_nn
 
 
 # Load the test data
@@ -48,13 +48,13 @@ def get_model_prediction(model_name, num_samples=20):
 
     elif model_name == "nn":
         # Create nn model and get model prediction and true label for given number of samples
-        rain_nn = rain_nn()
+        rain_nn = get_rain_nn()
         X, y = get_samples(num_samples)
         y_pred = rain_nn.predict_proba(X)[:, 1].reshape(-1)
 
     elif model_name == "nn_ops_calibrated":
         # Create calibrated model
-        rain_nn = rain_nn()
+        rain_nn = get_rain_nn()
         calibrated_rain_nn = calibrate_rain_nn(rain_nn, "ops")
 
         # Get model prediction and true label for given number of samples
@@ -63,7 +63,7 @@ def get_model_prediction(model_name, num_samples=20):
 
     elif model_name == "nn_ir_calibrated":
         # Create calibrated model
-        rain_nn = rain_nn()
+        rain_nn = get_rain_nn()
         calibrated_rain_nn = calibrate_rain_nn(rain_nn, "ir")
 
         # Get model prediction and true label for given number of samples
@@ -72,7 +72,7 @@ def get_model_prediction(model_name, num_samples=20):
 
     elif model_name == "nn_pt_calibrated":
         # Create nn model and get model prediction and true label for given number of samples
-        rain_nn = rain_nn()
+        rain_nn = get_rain_nn()
         calibrated_rain_nn = calibrate_rain_nn(rain_nn, "ir")
 
         X, y = get_samples(num_samples)

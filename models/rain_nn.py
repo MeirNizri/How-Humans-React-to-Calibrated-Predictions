@@ -4,7 +4,7 @@ import pandas as pd
 
 from sklearn.neural_network import MLPClassifier
 
-def rain_nn():
+def get_rain_nn():
     """
     Trains a neural network to predict whether it will rain tomorrow or not.
     """
