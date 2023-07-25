@@ -1,0 +1,757 @@
+id,model_name,age,gender,occupation,review,time
+1,perfect(uniform),26,Male,developer,rain forecast prediction,2023-03-29 10:33:59.012400
+2,perfect(uniform),26,Female,MANAGER,I LIKE THIS SURVEY. THIS  IS INTERESTING SURVEY.,2023-03-29 10:39:48.303134
+3,perfect(uniform),51,Female,manger,good,2023-03-29 11:03:01.625644
+4,perfect(uniform),43,Female,BUSINESS,GOOD,2023-03-29 11:06:18.397375
+5,perfect(uniform),32,Female,Employee,evaluation of rain day.,2023-03-29 20:08:42.299530
+6,perfect(uniform),42,Male,Quality Assurance Analyst,To see if I would trust the weather report even after it got it wrong a few time.,2023-03-29 20:08:51.076372
+7,perfect(uniform),33,Female,Sales manager,how much I trust the weather forcast.,2023-03-29 20:08:52.520779
+8,perfect(uniform),73,Female,retired,Tests my decision making.,2023-03-29 20:10:07.393630
+9,perfect(uniform),24,Female,Health aid,To see if i trust weather predictions,2023-03-29 20:12:52.978626
+10,perfect(uniform),40,Male,Manager, Evaluation of rain forecast system in this survey.,2023-03-29 20:13:44.508162
+11,perfect(uniform),56,Female,health care,super,2023-03-29 20:13:50.472068
+12,perfect(uniform),44,Male,Accounts manager,evaluation ,2023-03-29 20:14:49.813570
+13,perfect(uniform),43,Male,Engineer,It was related to opinions,2023-03-29 20:36:42.637526
+14,perfect(uniform),36,Male,Warehouse manager,good,2023-03-29 20:39:46.911340
+15,perfect(uniform),52,Male,luthier,Interesting.,2023-03-29 20:43:02.659758
+16,perfect(uniform),26,Male,MANAGER,EVALUVATION,2023-03-29 20:52:34.545210
+17,perfect(uniform),28,Male,Healthcare,Interesting and guess the rain forecast,2023-03-29 20:54:19.049092
+18,perfect(uniform),40,Female,customer service,prediction success,2023-03-30 10:05:03.615395
+19,perfect(uniform),26,Female,TEACHER,good. very nice. I like it.,2023-03-30 10:10:04.067486
+20,perfect(uniform),26,Male,Software development,rain forest system,2023-03-30 10:14:25.663880
+21,perfect(uniform),28,Male,Assistant Manager,The survey was helpful about evaluation on rain forecast system .,2023-03-30 10:15:53.785118
+22,perfect(uniform),26,Male,Manager,The survey was about evaluation of rain forecast system.,2023-03-30 10:16:06.105291
+23,perfect(uniform),23,Male,ADMIN,evaluation of rain forecast system,2023-03-30 10:16:30.984441
+24,perfect(uniform),26,Male,software developer,nice,2023-03-30 10:16:53.965512
+25,perfect(uniform),37,Male,Manager,The survey was very interesting and very easy to done,2023-03-30 10:18:05.682210
+26,perfect(uniform),28,Male,Team Leader,This survey on evaluation of rain forecast system,2023-03-30 10:18:16.394270
+27,perfect(uniform),48,Male,Carpenter,The survey was easy to read and understand. Happy To Participate..,2023-03-30 10:25:14.284871
+28,perfect(uniform),25,Male,Manufacturing ,Very interesting,2023-03-30 10:37:43.637257
+29,perfect(uniform),38,Female,manager,interesting survey to predition,2023-03-30 11:23:36.979222
+30,perfect(uniform),44,Female,Manufacturing,good,2023-03-30 12:28:40.404758
+31,perfect(uniform),41,Female,Manager,The survey was helpful in evaluation of rain forecast system,2023-03-30 12:30:25.043803
+32,perfect(uniform),43,Female,manager,the survey is about evaluation of rain forecast system ,2023-03-30 12:31:13.885651
+33,perfect(uniform),31,Male,DATA,NICE,2023-03-30 12:35:02.642718
+34,perfect(uniform),26,Male,DATA,GOOD,2023-03-30 12:35:17.915800
+35,perfect(uniform),31,Female,Manager,This survey was helpful in evaluation if rain forecast system.,2023-03-30 12:35:27.295587
+36,perfect(uniform),28,Male,IT,good,2023-03-30 12:35:46.581731
+37,perfect(uniform),43,Male,Manager,The survey about evaluation of rain forecast system.,2023-03-30 12:35:50.504872
+38,perfect(uniform),31,Male,Software developer,This survey shows the model of the rain forecasting system that is essential for an early warning that can minimize risks to life and property.,2023-03-30 12:36:14.094648
+39,perfect(uniform),29,Male,Engineer,Difficult to analyze the rating.,2023-03-30 12:39:35.028920
+40,perfect(uniform),25,Female,Full Time Employee,Good,2023-03-30 12:40:06.445260
+41,perfect(uniform),36,Male,MANAGER,ITS VERY INTERSETING ,2023-03-30 12:49:45.354769
+42,perfect(uniform),26,Male,DATY,NICE,2023-03-30 12:57:47.493925
+43,perfect(uniform),38,Male,AMAZON MTURK,GOOD,2023-03-30 13:00:11.426774
+44,perfect(uniform),30,Male,software development,in the good and interesting weather detail understand it   ,2023-03-30 13:04:34.851997
+45,perfect(uniform),57,Male,MANAGER,THIS SURVEY EVALUATION OF RAIN FORECAST SYSTEM.,2023-03-30 13:07:02.712522
+46,perfect(uniform),31,Female,FULL TIME EMPLOYEE,PREDICTION ABOUT FORCAST SYSTEM,2023-03-30 13:29:21.575034
+47,perfect(uniform),33,Female,Sales manager,How much do I trust the weather forecast.,2023-04-11 02:03:57.602871
+48,perfect(uniform),51,Female,warehouse generalist,It was fun!,2023-04-11 02:04:18.854644
+49,perfect(uniform),26,Male,software developemnt,rain forecast system,2023-04-11 02:09:34.203662
+50,perfect(uniform),50,Male,IT procurement,"I think this survey is good, it didn't have any problems.",2023-04-11 02:09:42.779859
+51,perfect(uniform),37,Female,manager,very good,2023-04-11 02:22:21.273571
+52,perfect(uniform),57,Female,Administrative officer,This is about people trust towards AI. It was good experience. Thank you so much for this survey.,2023-04-11 02:53:48.909926
+53,perfect(uniform),31,Female,Educator- Higher Ed,It was fun.,2023-04-11 13:37:08.010409
+54,perfect(uniform),70,Female,optician,very engaging,2023-04-11 13:37:14.339037
+55,perfect(uniform),32,Male,IT,Survey was laid out clearly and overall enjoyable.,2023-04-11 13:37:40.327827
+56,perfect(uniform),31,Female,employed for wages,prediction about forecast system,2023-04-11 13:39:26.699656
+57,perfect(uniform),65,Female,Retired,Forecast Trusting,2023-04-11 13:39:26.981128
+58,perfect(uniform),36,Male,manager,evaluate the rain ,2023-04-11 13:39:32.978298
+59,perfect(uniform),45,Male,manager,"A survey on evaluation of rain forecast system.
+",2023-04-11 13:40:36.735323
+60,perfect(uniform),47,Male,researcher,assessment for a prediction system,2023-04-11 13:41:15.749004
+61,perfect(uniform),42,Female,Manager,Rain forecast,2023-04-11 13:41:39.873612
+62,perfect(uniform),26,Male,Software developer,evaluation of rain forecasting system.,2023-04-11 13:41:50.736288
+63,perfect(uniform),34,Female,Homemaker,Interesting,2023-04-11 13:42:17.534192
+64,perfect(uniform),32,Female,Health care,Evaluation of rain forecast system,2023-04-11 13:42:42.727209
+65,perfect(uniform),38,Female,Nurse,I thought it was interesting! I found it very convincing and I feel like it is a very believable weather predictor as it closely mirrors my experiences with weather predictors in real life. ,2023-04-11 13:43:40.080814
+66,perfect(uniform),54,Male,Accountant,I thought the weather prediction was not particularly strong.,2023-04-11 13:43:41.081036
+67,perfect(uniform),33,Male,FINANCIAL MENAGEMENT ,GOOD,2023-04-11 13:43:47.080136
+68,perfect(uniform),36,Male,healthcare,evaluation of the rain system ,2023-04-11 13:44:13.060406
+69,perfect(uniform),34,Female,Administrative Officer,The rain forecast system predicts.,2023-04-11 13:45:13.885548
+70,perfect(uniform),57,Male,sales manager,It was a moral ethics study.,2023-04-11 13:46:25.691906
+71,perfect(uniform),39,Female,Manager,this survey talk about evaluation survey,2023-04-11 13:46:45.994829
+72,perfect(uniform),32,Male,TEAM LEADER,IT IS GOOD,2023-04-11 13:46:53.197821
+73,perfect(uniform),45,Male,manager,"A survey on evaluation of rain forecast system.
+",2023-04-11 13:47:02.928436
+74,perfect(uniform),36,Female,Health care ,I think this survey is Evaluation of rain forecast system.,2023-04-11 13:47:41.755680
+75,perfect(uniform),31,Male,management,n/a,2023-04-11 13:49:24.406518
+76,perfect(uniform),37,Female,health care,Evaluation study,2023-04-11 13:49:40.158949
+77,perfect(uniform),34,Female,MANAGER,"This survey about  evaluation of rain forecast system.
+",2023-04-11 13:50:55.352979
+78,perfect(uniform),46,Male,MANAGER,THIS SURVEY IS ABOUT EVALUATION OF RAIN FORECAST SYSTEM,2023-04-11 13:51:04.898169
+79,perfect(uniform),40,Male,Purchasing manager,I have no idea. rain chances?,2023-04-11 13:51:21.867390
+80,perfect(uniform),38,Female,Manager,none,2023-04-11 13:51:32.806658
+81,perfect(uniform),45,Male,manager,"A survey on evaluation of rain forecast system.
+",2023-04-11 13:54:35.728817
+82,perfect(uniform),22,Female,Healthcare,I satisfied,2023-04-11 13:58:13.399636
+83,perfect(uniform),46,Female,Manager,none,2023-04-11 13:58:23.173406
+84,perfect(uniform),25,Male,Sales and business,Nothing,2023-04-11 13:58:27.300820
+85,perfect(uniform),34,Male,Retail,Fairly straightforward.,2023-04-11 13:59:35.917921
+86,perfect(uniform),29,Female,job,ok,2023-04-11 14:00:25.150726
+87,perfect(uniform),26,Female,it,wheather forecast ,2023-04-11 14:03:23.492463
+88,perfect(uniform),69,Female,Semiretired IT pro,"The system seemed less accurate when it was closer to 50% chance of rain (understandably.) Also, it could rain part of the day and be clear part of the day... how's that handled?",2023-04-11 14:10:44.388463
+89,perfect(uniform),26,Male,IT,good,2023-04-11 14:14:35.984414
+90,perfect(uniform),31,Male,manager,good,2023-04-11 14:43:15.529491
+91,perfect(uniform),34,Female,manager,good,2023-04-11 14:59:40.479389
+92,perfect(uniform),30,Female,Employee,rain day about.,2023-04-13 09:17:09.928274
+93,perfect(uniform),34,Male,INFORMATION TECHNOLOGY,I LIKE THIS SURVEY,2023-04-13 09:24:04.522583
+94,perfect(uniform),52,Male,MANAGER,THIS SURVEY WAS HELPFUL TO KNOW ABOUT THE RAINFALL FORECASTING.,2023-04-13 09:54:41.902596
+95,perfect(uniform),38,Male,information technology,Evaluation of rain forecast system,2023-04-13 09:59:04.860216
+96,perfect(uniform),62,Female,INFORMMATION TECHNOLOGY,EVALUATION OF RAIN FORECAST SYSTEM,2023-04-13 10:11:45.595955
+97,perfect(uniform),28,Male,IT,GOOD AND VERY INTERESTING.,2023-04-13 10:21:30.866204
+98,perfect(uniform),31,Male,data,nice,2023-04-13 10:22:06.005582
+99,perfect(uniform),45,Female,Technoloy,interesting task,2023-04-13 10:22:58.245309
+100,perfect(uniform),31,Male,business,good,2023-04-13 10:26:29.884627
+101,ignorant(high-low),45,Male,managar,rain,2023-04-26 21:15:45.482758
+102,ignorant(high-low),63,Male,Fulltime,None,2023-04-26 21:28:38.634726
+103,ignorant(high-low),36,Female,ACCOOUNTANT,It was interesting,2023-04-26 21:59:40.144799
+104,ignorant(high-low),33,Male,IT,GOOD,2023-04-26 22:21:42.506921
+105,ignorant(high-low),34,Female,Front Desk Clerk,"Good length, but causing me to be more distrustful of weather predictions!",2023-04-26 22:42:55.370825
+106,ignorant(high-low),29,Male,Property Manager,Interesting survey,2023-04-27 06:15:46.231894
+107,ignorant(high-low),31,Male,IT,NONE,2023-04-27 06:18:14.872619
+108,ignorant(high-low),26,Male,software developer,interesting,2023-04-27 06:18:37.598340
+109,ignorant(high-low),26,Male,Software development,rain forest system,2023-04-27 06:20:36.253330
+110,ignorant(high-low),30,Male,software,good,2023-04-27 06:20:48.566606
+111,ignorant(high-low),26,Male,Software developer,This survey is evaluation of rain forecast  system,2023-04-27 06:21:46.523250
+112,ignorant(high-low),31,Female,computer,good,2023-04-27 06:21:54.623976
+113,ignorant(high-low),33,Male,BUSINESS,GOOD SURVEY .MEMORY POWER TO SURVEY.,2023-04-27 06:21:59.228498
+114,ignorant(high-low),38,Female,INFORMATION TECHNOLOGY,Evaluation of rain forecast system,2023-04-27 06:22:51.151736
+115,ignorant(high-low),39,Female,HEALTHCARE,IT IS ABOUT MEMORY.,2023-04-27 06:22:58.822163
+116,ignorant(high-low),57,Male,middle manager,very interesting,2023-04-27 06:23:24.038890
+117,ignorant(high-low),26,Male,Software developer,nice,2023-04-27 06:23:28.268973
+118,ignorant(high-low),26,Female,saftware developer,This survey is weather task.,2023-04-27 06:23:53.466399
+119,ignorant(high-low),24,Female,Healthcare ,Thank you.,2023-04-27 06:24:34.444464
+120,ignorant(high-low),36,Male,teacher,very well,2023-04-27 06:24:45.607803
+121,ignorant(high-low),33,Female,Business,About the weather,2023-04-27 06:24:57.651725
+122,ignorant(high-low),26,Male,Software developer,This survey about evolution of  rain forecast system,2023-04-27 06:26:42.945730
+123,ignorant(high-low),39,Female,financial analyst,"very interesting task, I enjoyed it.",2023-04-27 06:26:46.907902
+124,ignorant(high-low),22,Female,IT,Thank you.,2023-04-27 06:27:00.774842
+125,ignorant(high-low),25,Female,Healthcare ,Thank you.,2023-04-27 06:27:50.965340
+126,ignorant(high-low),56,Female,Manager,Good,2023-04-27 06:28:01.051836
+127,ignorant(high-low),31,Male,management,n/a,2023-04-27 06:28:07.548779
+128,ignorant(high-low),26,Male,SOFTWARE DEVELOPER,NICE,2023-04-27 06:28:45.504397
+129,ignorant(high-low),33,Female,teacher,good,2023-04-27 06:29:21.737904
+130,ignorant(high-low),26,Male,Software,This survey is very nice.,2023-04-27 06:30:20.737253
+131,ignorant(high-low),26,Male,Software,This survey is very nice.,2023-04-27 06:30:43.837066
+132,ignorant(high-low),38,Female,Business,well,2023-04-27 06:31:28.680348
+133,ignorant(high-low),24,Female,Software Developer ,A survey on evaluation of rain forecast system .,2023-04-27 06:31:42.827745
+134,ignorant(high-low),30,Male,editor,n/a,2023-04-27 06:32:27.416400
+135,ignorant(high-low),30,Male,IT,NICE SURVEY,2023-04-27 06:35:14.239360
+136,ignorant(high-low),33,Male,BUSINESS,GOOD,2023-04-27 06:36:29.899600
+137,ignorant(high-low),38,Female,IT,N/A,2023-04-27 06:37:34.830460
+138,ignorant(high-low),39,Female,BUSINESS,WELL,2023-04-27 06:38:00.724852
+139,ignorant(high-low),36,Male,business,well,2023-04-27 06:39:04.486162
+140,ignorant(high-low),32,Female,Software engineer,very effective,2023-04-27 06:46:21.054994
+141,ignorant(high-low),61,Female,ECONOMIC,GOOD,2023-04-27 06:47:49.128235
+142,ignorant(high-low),25,Female,manufacturing,good,2023-04-27 06:49:21.444899
+143,ignorant(high-low),62,Female,Manager,Good,2023-04-27 06:49:44.982092
+144,ignorant(high-low),30,Male,system,good,2023-04-27 06:49:45.239849
+145,ignorant(high-low),33,Male,Information Technology,this survey is about an evaluation of rain forecast survey,2023-04-27 06:51:17.462936
+146,ignorant(high-low),26,Male,manufacturing,days,2023-04-27 06:52:34.512815
+147,ignorant(high-low),33,Female,Information Technology,Evaluation of Rain Forecast System,2023-04-27 06:54:50.550196
+148,ignorant(high-low),33,Female,teacher,good,2023-04-27 07:04:48.224420
+149,ignorant(high-low),33,Female,Information Technology,Evaluation of rain forecast system,2023-04-27 08:15:32.023682
+150,ignorant(high-low),29,Female,Manager,About an evaluation of forecasting,2023-05-02 12:46:02.228456
+151,ignorant(high-low),38,Male,manager,IT IS VERY NICE AND INTRESTING SURVEY,2023-05-02 12:46:27.788157
+152,ignorant(high-low),28,Male,community manager,i think it was mildly boring but fair paying,2023-05-02 12:46:30.692681
+153,ignorant(high-low),57,Male,option trader,it went well,2023-05-02 12:46:36.659900
+154,ignorant(high-low),33,Female,computing,about rain forecasting,2023-05-02 12:47:00.815526
+155,ignorant(high-low),39,Male,operations assistant,It was straight forward,2023-05-02 12:47:30.007774
+156,ignorant(high-low),35,Male,IT,trust of computerized predictions,2023-05-02 12:47:48.496317
+157,ignorant(high-low),33,Male,IT,THIS IS GOOD SUVERY I LIKE IT.,2023-05-02 12:48:57.681354
+158,ignorant(high-low),40,Male,Manager,None,2023-05-02 12:48:58.197503
+159,ignorant(high-low),38,Female,financial analyst,Easy and enjoying task. Thanks,2023-05-02 12:49:02.718759
+160,ignorant(high-low),30,Male,work,Good,2023-05-02 12:49:13.577473
+161,ignorant(high-low),31,Female,Employed for wages,weather prediction,2023-05-02 12:49:31.976277
+162,ignorant(high-low),31,Male,id,nothing,2023-05-02 12:50:23.266858
+163,ignorant(high-low),37,Male,manager,thank you,2023-05-02 12:51:14.367066
+164,ignorant(high-low),36,Male,sales,very like,2023-05-02 12:51:17.231203
+165,ignorant(high-low),35,Male,Manager,no,2023-05-02 12:51:22.229209
+166,ignorant(high-low),35,Female,MANAGER,THIS SURVEY ABOUT EVALUATION RAIN FORECAST SYSTEM,2023-05-02 12:51:46.946663
+167,ignorant(high-low),31,Male,id,nothing,2023-05-02 12:52:59.389718
+168,ignorant(high-low),31,Male,COMPUTING,GOOD,2023-05-02 12:54:04.932113
+169,ignorant(high-low),37,Female,MANAGER,NONE,2023-05-02 12:54:50.469927
+170,ignorant(high-low),27,Female,Manager,Interesting,2023-05-02 12:58:52.682277
+171,ignorant(high-low),31,Male,manager,no comments,2023-05-02 13:00:32.446146
+172,ignorant(high-low),51,Female,manger,like,2023-05-02 13:02:02.980864
+173,ignorant(high-low),60,Male,retail,good memory task,2023-05-02 13:02:07.825573
+174,ignorant(high-low),29,Male,Tutor,"Interesting study. Everything went quite well, the instructions were clear, and there were no issues at all.",2023-05-02 13:02:09.657787
+175,ignorant(high-low),43,Male,Software Developer ,I like this study .Thank you!,2023-05-02 13:02:15.191508
+176,ignorant(high-low),54,Male,Customer Service Representative,Very odd.,2023-05-02 13:03:17.959753
+177,ignorant(high-low),60,Female,15,this about prediction ,2023-05-02 13:06:43.039166
+178,ignorant(high-low),31,Male,it,nothing,2023-05-02 13:10:03.761574
+179,ignorant(high-low),33,Female,SELF,ESSAY TO UNDERSTAND,2023-05-02 13:19:38.457140
+180,ignorant(high-low),25,Female,HR manager,Good,2023-05-02 13:21:45.771615
+181,ignorant(high-low),31,Male,IT,about rain prediction,2023-05-02 13:21:55.417088
+182,ignorant(high-low),26,Female,wholesale,good survey,2023-05-02 13:22:37.253581
+183,ignorant(high-low),25,Male,Bussiness,Very Interesting about evaluation of rain forest system,2023-05-02 13:30:05.673858
+184,ignorant(high-low),31,Male,management,n/a,2023-05-02 13:32:30.497538
+185,ignorant(high-low),25,Male,MANAGER,good survey.,2023-05-02 13:32:51.922287
+186,ignorant(high-low),51,Male,Office Manager,it was okay,2023-05-02 13:34:18.240899
+187,ignorant(high-low),25,Female,Business,evaluation of rain forecast,2023-05-02 13:49:17.298460
+188,ignorant(high-low),26,Female,it,i think of rainsoul first soar up high in an imaginary sky.,2023-05-02 13:58:12.747463
+189,ignorant(high-low),25,Female,software,decision making,2023-05-02 13:58:54.914407
+190,ignorant(high-low),26,Male,software developer,evaluating rain forecasting system,2023-05-02 13:58:54.914408
+191,ignorant(high-low),26,Male,Software developer,very interesting,2023-05-02 13:58:54.914409
+192,ignorant(high-low),36,Female,Business,WELL,2023-05-02 13:58:54.914410
+193,ignorant(high-low),35,Male,Manager,ABOUT EVALUATION OF RAIN FORECAST SYSTEM,2023-05-02 13:58:54.914411
+194,ignorant(high-low),25,Female,developer,good,2023-05-03 13:16:51.357326
+195,ignorant(high-low),30,Female,ADMINISTRATIVE OFFICER ,None,2023-05-03 13:17:39.404080
+196,ignorant(high-low),26,Female,manager,good,2023-05-03 13:21:43.243915
+197,ignorant(high-low),33,Male,manager,good and easy,2023-05-03 13:22:45.103517
+198,ignorant(high-low),51,Male,crowdsourcer,"interesting overall.  system clearly is flawed, almost as good as a coin flip",2023-05-03 13:23:26.174998
+199,ignorant(high-low),28,Female,Manager,Good,2023-05-03 13:38:53.247068
+200,ignorant(high-low),31,Male,MANAGE,NO COMMENTS,2023-05-03 14:08:19.238967
+201,PT_calibrated(uniform),30,Male,COMPUTER,GOOD,2023-05-04 00:19:28.760204
+202,PT_calibrated(uniform),35,Male,Business Analyst,I thought it was simple and straight forward.,2023-05-04 00:47:15.958076
+203,PT_calibrated(uniform),28,Male,Finance,It's was very interesting,2023-05-04 00:53:07.068495
+204,PT_calibrated(uniform),45,Male,freelance,trust in systems,2023-05-04 00:53:07.068496
+205,PT_calibrated(uniform),34,Female,IT,I LIKE THIS SURVEY,2023-05-04 00:53:07.068497
+206,PT_calibrated(uniform),35,Male,HEALTH CARE,INTRESTING SURVEY,2023-05-04 11:10:34.006167
+207,PT_calibrated(uniform),48,Female,MANAGER,NONE,2023-05-04 11:10:55.130767
+208,PT_calibrated(uniform),38,Male,TEAM LEADER,GOOD,2023-05-04 11:11:20.349497
+209,PT_calibrated(uniform),53,Male,information technology,this survey is about the evaluation of rain forecast system,2023-05-04 11:11:25.661587
+210,PT_calibrated(uniform),51,Female,health care,the survey is about rain prediction and interesting,2023-05-04 11:12:16.277588
+211,PT_calibrated(uniform),31,Male,Manager,This survey is about predicting the forecast of weather.,2023-05-04 11:12:30.623893
+212,PT_calibrated(uniform),38,Male,teacher,well,2023-05-04 11:15:40.385202
+213,PT_calibrated(uniform),38,Female,BUSINESS,WELL,2023-05-04 11:16:33.443600
+214,PT_calibrated(uniform),45,Male,managar,no,2023-05-04 11:16:44.590510
+215,PT_calibrated(uniform),30,Male,manager,none,2023-05-04 11:18:25.871464
+216,PT_calibrated(uniform),36,Female,SELF EMPLOYED,GOOD AND INTRESTING SURVEY,2023-05-04 11:19:19.642134
+217,PT_calibrated(uniform),30,Male,MANAGER,GOOD,2023-05-04 11:20:16.327036
+218,PT_calibrated(uniform),40,Female,manager,A survey on evaluation of rain forecast system .,2023-05-04 11:20:16.659574
+219,PT_calibrated(uniform),36,Female,Manager ,This survey is very useful.,2023-05-04 11:20:19.208885
+220,PT_calibrated(uniform),31,Male,MANAGER,NO COMMENTS,2023-05-04 11:21:04.446193
+221,PT_calibrated(uniform),36,Female,business,well,2023-05-04 11:21:08.454476
+222,PT_calibrated(uniform),36,Female,Health care ,this survey is very useful,2023-05-04 11:21:23.010323
+223,PT_calibrated(uniform),35,Male,Healthcare,NONE,2023-05-04 11:21:24.186298
+224,PT_calibrated(uniform),36,Female,business,well survey,2023-05-04 11:21:58.433732
+225,PT_calibrated(uniform),38,Female,financial analyst,thanks,2023-05-04 11:22:34.034929
+226,PT_calibrated(uniform),31,Male,it,nothing,2023-05-04 11:24:02.296128
+227,PT_calibrated(uniform),31,Male,IT,GOOD,2023-05-04 11:24:08.117132
+228,PT_calibrated(uniform),25,Female,manager,this  is an forecast  system,2023-05-04 11:24:11.306035
+229,PT_calibrated(uniform),33,Male,Manager,good survey,2023-05-04 11:24:23.022166
+230,PT_calibrated(uniform),38,Female,business,well,2023-05-04 11:24:35.609958
+231,PT_calibrated(uniform),35,Male,MANGER,IT IS ABOUT RAIN FORECASTING.,2023-05-04 11:25:12.549079
+232,PT_calibrated(uniform),33,Male,manager,good survey,2023-05-04 11:25:28.020486
+233,PT_calibrated(uniform),31,Male,full time employee,weather prediction,2023-05-04 11:27:34.873096
+234,PT_calibrated(uniform),45,Male,managar,no,2023-05-04 11:27:53.966343
+235,PT_calibrated(uniform),50,Male,Software Engineer ,The survey is interesting ,2023-05-04 11:28:10.226546
+236,PT_calibrated(uniform),45,Male,managar,no,2023-05-04 11:28:17.115736
+237,PT_calibrated(uniform),123,Male,teasar,good,2023-05-04 11:29:53.875603
+238,PT_calibrated(uniform),39,Female,BUSINESS,WELL,2023-05-04 11:29:55.622118
+239,PT_calibrated(uniform),42,Female,Manager,Rain scene,2023-05-04 11:30:42.128295
+240,PT_calibrated(uniform),31,Female,teacher,good,2023-05-04 11:32:10.392314
+241,PT_calibrated(uniform),31,Male,business,good,2023-05-04 11:38:11.930907
+242,PT_calibrated(uniform),38,Female,INFORMATION TECHNOLOGY,Evaluation of rain forecasting system,2023-05-04 11:41:29.827673
+243,PT_calibrated(uniform),31,Male,ID,NOTHING,2023-05-04 11:41:45.628299
+244,PT_calibrated(uniform),21,Male,MANAGER,ITS VERY NICE SURVEY.,2023-05-04 11:43:22.580109
+245,PT_calibrated(uniform),65,Female,20000,very nice useful and good,2023-05-04 11:50:10.271994
+246,PT_calibrated(uniform),21,Female,software work,this survey about how much we trust rain forecasting system,2023-05-04 11:55:22.947008
+247,PT_calibrated(uniform),35,Male,HEALTH CARE,IT IS RAIN FORECAST SURVEY AND IT IS INTRESTING,2023-05-04 12:21:53.558406
+248,PT_calibrated(uniform),40,Male,Webmaster,Interesting.,2023-05-04 12:22:17.319269
+249,PT_calibrated(uniform),43,Male,MANAGER,None,2023-05-04 12:22:26.692048
+250,PT_calibrated(uniform),35,Male,HEALTH CARE,VERY INTRESTING SURVEY,2023-05-04 12:22:42.613230
+251,PT_calibrated(uniform),56,Female,Manager,very well,2023-05-04 12:23:25.132436
+252,PT_calibrated(uniform),33,Female,data entry,very interesting,2023-05-04 12:23:55.548079
+253,PT_calibrated(uniform),49,Male,HEALTHCARE,RAIN FORECASTING SURVEY,2023-05-04 12:24:42.576404
+254,PT_calibrated(uniform),37,Female,self employed,It was simple enough.,2023-05-04 12:25:02.459221
+255,PT_calibrated(uniform),38,Female,Healthcare,"thanks for this survey.
+",2023-05-04 12:25:12.426058
+256,PT_calibrated(uniform),26,Female,manager,none,2023-05-04 12:25:17.094139
+257,PT_calibrated(uniform),51,Male,Manager,None,2023-05-04 12:25:20.608699
+258,PT_calibrated(uniform),58,Male,MANAGER,THE SURVEY IS ABOUT THE FORECASTING SYSTEM.,2023-05-04 12:25:55.764825
+259,PT_calibrated(uniform),51,Female,Banking & Finance,This survey is about the People thoughts on Rain forecase prediction.,2023-05-04 12:26:08.466491
+260,PT_calibrated(uniform),28,Male,IT,Rain calculation,2023-05-04 12:26:15.285337
+261,PT_calibrated(uniform),36,Male,Manager,evaluation of rain forecast ,2023-05-04 12:26:38.700012
+262,PT_calibrated(uniform),38,Female,HESTH CATR,NONE,2023-05-04 12:26:44.055049
+263,PT_calibrated(uniform),30,Male,Technology,Easy task,2023-05-04 12:26:46.239795
+264,PT_calibrated(uniform),49,Female,Manager,None,2023-05-04 12:27:55.158324
+265,PT_calibrated(uniform),45,Male,manager,survey about rain forecasting,2023-05-04 12:28:40.923656
+266,PT_calibrated(uniform),25,Female,Manager,It's about rain forecast system,2023-05-04 12:28:44.225702
+267,PT_calibrated(uniform),36,Female,heath care,none,2023-05-04 12:29:56.354393
+268,PT_calibrated(uniform),33,Female,teacher,good survey,2023-05-04 12:31:16.519975
+269,PT_calibrated(uniform),25,Female,Manager,Yes. very interesting and nice.,2023-05-04 12:31:21.499230
+270,PT_calibrated(uniform),34,Female,SELF EMPLOYED,GOOD AND INTRESTING SURVEY,2023-05-04 12:31:47.022644
+271,PT_calibrated(uniform),42,Male,Manager,None,2023-05-04 12:31:52.044769
+272,PT_calibrated(uniform),59,Male,Information Technology,Evaluation of rain forecasting System ,2023-05-04 12:31:59.874279
+273,PT_calibrated(uniform),33,Female,IT,THAT'S GOOD SURVEY,2023-05-04 12:32:07.167176
+274,PT_calibrated(uniform),26,Female,Manager,good,2023-05-04 12:32:57.974775
+275,PT_calibrated(uniform),25,Female,manager,forecast study ,2023-05-04 12:33:32.414220
+276,PT_calibrated(uniform),31,Male,Technology,Easy task,2023-05-04 12:33:35.439721
+277,PT_calibrated(uniform),53,Male,information technology ,in this study about the evaluation of rain forecaste system ,2023-05-04 12:33:39.811403
+278,PT_calibrated(uniform),25,Male,Administrative officer,A survey on evaluation of rain forecast,2023-05-04 12:33:53.231128
+279,PT_calibrated(uniform),25,Female,Manager,It's about rain forecast system,2023-05-04 12:33:54.266704
+280,PT_calibrated(uniform),26,Male,IT Developer,The survey is about  prediction of weather.,2023-05-04 12:34:19.180213
+281,PT_calibrated(uniform),59,Female,Manager,This survey is about a rain forecasting.,2023-05-04 12:34:29.367501
+282,PT_calibrated(uniform),28,Female,manager,forecast survey,2023-05-04 12:34:46.446889
+283,PT_calibrated(uniform),33,Male,MANAGER,GATHER MORE INFORMATION,2023-05-04 12:35:54.449355
+284,PT_calibrated(uniform),32,Female,ADMINISTRATIVE OFFICER,good,2023-05-04 12:37:58.375228
+285,PT_calibrated(uniform),33,Female,manager,forecast survey,2023-05-04 12:38:12.729760
+286,PT_calibrated(uniform),41,Female,Manager,The survey says about the evaluation of rain forecast.,2023-05-04 12:38:49.147893
+287,PT_calibrated(uniform),30,Male,computing,good survey great survey very easy like this.,2023-05-04 12:40:06.108783
+288,PT_calibrated(uniform),33,Male,Manager,Good survey,2023-05-04 12:40:09.678119
+289,PT_calibrated(uniform),31,Female,Administrative officer,good,2023-05-04 12:44:33.165927
+290,PT_calibrated(uniform),26,Female,Technical Engineer ,survey was interesting,2023-05-04 12:58:23.171399
+291,PT_calibrated(uniform),123,Male,33,GOOD,2023-05-04 12:59:06.435594
+292,PT_calibrated(uniform),30,Male,computing,i like this survey good survey,2023-05-04 13:00:46.793670
+293,PT_calibrated(uniform),31,Male,Technology,Gather more information,2023-05-04 13:05:58.079009
+294,PT_calibrated(uniform),38,Female,business,well,2023-05-04 13:08:01.986683
+295,PT_calibrated(uniform),37,Male,Assistant Manager,the evaluation of rain forecast,2023-05-04 13:28:50.318689
+296,NN_IR_PT,39,Male,SME Customer Support,I was able to trust the prediction based on the percentages and was surprised the majority of my choices were right.  ,2023-06-06 21:20:08.818566
+297,NN_IR_PT,33,Female,Sales Manager,Fun,2023-06-06 21:26:31.627599
+298,NN_IR_PT,33,Female,Computer Technician,"It was interesting and enjoyable. Good pay for the time spent, thank you",2023-06-06 21:29:02.781996
+299,NN_IR_PT,35,Male,IT,GOOD,2023-06-06 21:48:33.435977
+300,NN_IR_PT,25,Female,software developer,very useful,2023-06-06 21:58:23.633604
+301,NN_IR_PT,25,Male,software developer,very useful about climate,2023-06-06 22:06:30.248267
+302,NN_IR_PT,41,Female,medical coder,how much we trust weather predictions,2023-06-06 22:25:34.589666
+303,NN_IR_PT,25,Female,software developer,it was about rain forecast prediction,2023-06-06 22:25:46.960098
+304,NN_IR_PT,41,Male,MANAGER,IT IS ABOUT RAINFALL FORECASTING AND PREDICTION,2023-06-06 22:26:47.448487
+305,NN_IR_PT,68,Male,Retired,"It was interesting, and very well laid out. ",2023-06-06 22:27:43.714471
+306,NN_IR_PT,63,Male,"Supervisor, Customer Service, Auto Insurance","To what degree I perceive outcomes as predictable, given past results in a similar situation. (Or, as stock brokers say, in their disclaimers, ""Past performance does not guarantee future results"". Although -- this study wonders: ""--- or DOES it?"" ) ",2023-06-06 22:28:18.673094
+307,NN_IR_PT,36,Male,health care,evaluation of rain forecast,2023-06-06 22:29:45.056614
+308,NN_IR_PT,36,Male,manager ,evaluation the rain forecast ,2023-06-06 22:29:52.050210
+309,NN_IR_PT,33,Male,Information Technology (IT),"It was engaging since weather forecasts and especially the chance of rain are important in everyday life. It's especially true when you have an outdoor activity. There was also a good range of chance of rain percentages and of correct and incorrect predictions. Overall, I felt it had more correct predictions. I would probably ""guesstimate"" about 14/20 were correct.",2023-06-06 22:29:57.095100
+310,NN_IR_PT,34,Female,manager,its about rainfall forecasting,2023-06-06 22:29:59.915332
+311,NN_IR_PT,25,Male,software developer, A survey on evaluation of rain forecast system,2023-06-06 22:30:11.339244
+312,NN_IR_PT,65,Female,Retired,Interesting,2023-06-06 22:30:20.881488
+313,NN_IR_PT,32,Male,Direct support professional,Nothing I can think of,2023-06-06 22:30:39.254425
+314,NN_IR_PT,36,Female,manager,no,2023-06-06 22:30:49.018505
+315,NN_IR_PT,48,Male,MANAGER,THE SURVEY IS THE FORECAST SYSTEM SURVEY.,2023-06-06 22:31:01.627743
+316,NN_IR_PT,36,Female,Self Employed Consulting,"It was easy, very predictable and trustworthy.  Probably more reliable than a lot of meteorologists.",2023-06-06 22:31:55.178001
+317,NN_IR_PT,37,Female,manager,none,2023-06-06 22:32:29.245700
+318,NN_IR_PT,33,Male,CONSTRUCTION WORK,GOOD,2023-06-06 22:32:42.255163
+319,NN_IR_PT,25,Female,software developer,it was a rain forecast prediction,2023-06-06 22:32:44.106050
+320,NN_IR_PT,25,Male,software,its nice survey,2023-06-06 22:33:09.655675
+321,NN_IR_PT,41,Male,Healthcare,Its good and enjoyable ,2023-06-06 22:33:18.111431
+322,NN_IR_PT,48,Male,Carpenter,It was a fun survey on predictions - Easy to read and understand - Happy To Participate,2023-06-06 22:34:11.276078
+323,NN_IR_PT,41,Male,manager,survey is about forecast system,2023-06-06 22:34:57.739899
+324,NN_IR_PT,22,Female,Healthcare,In the survey of rain forecast system.,2023-06-06 22:35:02.028594
+325,NN_IR_PT,68,Male,Healthcare,In this survey  about the evolution of the  rain system. ,2023-06-06 22:35:47.645831
+326,NN_IR_PT,35,Female,Manager,It is a good and unique. thank you for asking the question.,2023-06-06 22:37:19.131765
+327,NN_IR_PT,57,Male,Freelancer/Auditor,I loved it. I have been interested in meteorology and forecasting since childhood so I was very invested in the topic of the survey. I enjoyed its format and user-friendliness as well as the concept of probability. ,2023-06-06 22:37:40.565259
+328,NN_IR_PT,51,Female,manager,rainfall forecasting,2023-06-06 22:37:45.777143
+329,NN_IR_PT,47,Male,Health care,"
+This survey appears to be well thought-out and designed to gain useful information. It has a good variety of questions and covers a variety of topics that could help give insight into the issue being discussed. It is also easy to understand and navigate, which could help encourage people to complete the survey. Overall, it looks like a great survey to complete.",2023-06-06 22:39:14.756521
+330,NN_IR_PT,47,Female,financial analyst,To know about public opinion,2023-06-06 22:41:12.566331
+331,NN_IR_PT,32,Male,Business,This study is about rain forecast system accuracy .,2023-06-06 22:42:05.436135
+332,NN_IR_PT,37,Female,Manager,The survey was good.,2023-06-06 22:42:22.947204
+333,NN_IR_PT,41,Female,Healthcare ,Thank you.,2023-06-06 22:42:25.295097
+334,NN_IR_PT,26,Male,adminstrator,good,2023-06-06 22:43:20.670142
+335,NN_IR_PT,49,Female,manager,the survey is about fore cast system,2023-06-06 22:44:18.481860
+336,NN_IR_PT,29,Male,Administrative Assistant,Trust weather system. For most part. No one is perfect.,2023-06-06 22:46:56.147753
+337,NN_IR_PT,24,Female,"AD,IM",IT WAS TALK ABOUT FORCASTING,2023-06-06 22:55:00.874017
+338,NN_IR_PT,36,Female,Manager,This survey is about forecast system.,2023-06-06 23:06:06.635527
+339,NN_IR_PT,61,Male,senior project manager,nice experience,2023-06-06 23:09:39.896129
+340,NN_IR_PT,26,Female,Manager,Good,2023-06-06 23:10:13.351059
+341,NN_IR_PT,36,Female,Information Technology ,Good ,2023-06-06 23:10:21.541807
+342,NN_IR_PT,35,Male,IT,It was interesting,2023-06-06 23:13:37.519048
+343,NN_IR_PT,30,Male,construction,unsure.,2023-06-06 23:14:59.236068
+344,NN_IR_PT,35,Male,Healthcare,rain forecast,2023-06-06 23:18:59.637473
+345,NN_IR_PT,25,Female,it,good,2023-06-06 23:26:52.067762
+346,NN_IR_PT,45,Male,manager,None,2023-06-10 21:43:21.291923
+347,NN_IR_PT,36,Male,manager ,evaluation of rain forecast,2023-06-10 21:43:31.168818
+348,NN_IR_PT,29,Male,Manager,I learned about rain forecasting by this survey.,2023-06-10 21:43:49.316059
+349,NN_IR_PT,30,Male,HEALTHCARE,I LIKE IN SURVEY.,2023-06-10 21:44:26.678679
+350,NN_IR_PT,22,Female,Healthcare,In the survey was forecast system.,2023-06-10 21:45:03.734130
+351,NN_IR_PT,36,Female,Manager ,None ,2023-06-10 21:45:05.710584
+352,NN_IR_PT,41,Male,manager,it is about rain fall forecasting,2023-06-10 21:46:38.476424
+353,NN_IR_PT,31,Male,alaska,good,2023-06-10 21:47:24.910381
+354,NN_IR_PT,48,Female,manager,forecasting the rain,2023-06-10 21:47:44.590207
+355,NN_IR_PT,31,Male,health care,nothing,2023-06-10 21:51:17.033782
+356,NN_IR_PT,35,Male,Manager,"Very good, thank you asking the question.",2023-06-10 21:52:10.564319
+357,NN_IR_PT,37,Female,Accountant,The survey was Good.,2023-06-10 21:52:30.651015
+358,NN_IR_PT,30,Male,helth care,good,2023-06-10 21:53:37.773165
+359,NN_IR_PT,52,Female,IT,GOOD,2023-06-10 21:55:13.441698
+360,NN_IR_PT,30,Male,Weather Reporter,Good survey opinion is good ,2023-06-10 21:55:27.048099
+361,NN_IR_PT,31,Male,good,n/a,2023-06-10 21:55:53.077826
+362,NN_IR_PT,47,Male,Health care,good,2023-06-10 21:56:23.547082
+363,NN_IR_PT,41,Male,Retail manager,I do not know.,2023-06-10 21:58:14.682056
+364,NN_IR_PT,25,Female,Administrative officer,Good and interesting,2023-06-10 22:01:16.679003
+365,NN_IR_PT,40,Female,biochemist,people attitudes towards AI for prediction the weather,2023-06-10 22:03:00.509438
+366,NN_IR_PT,29,Female,Healthcare,Its good and interesting,2023-06-10 22:03:28.621769
+367,NN_IR_PT,43,Female,IT,Good,2023-06-10 22:06:07.937796
+368,NN_IR_PT,37,Male,manager,forecasting rain,2023-06-10 22:10:32.498247
+369,NN_IR_PT,36,Male,Manager ,None ,2023-06-10 22:10:36.663068
+370,NN_IR_PT,30,Male,healthcare,good,2023-06-10 22:14:42.597100
+371,NN_IR_PT,35,Female,health care,this survey is about the rain forecast system,2023-06-10 22:14:52.186131
+372,NN_IR_PT,36,Female,employee,good,2023-06-10 22:14:52.211486
+373,NN_IR_PT,36,Male,Manager ,None ,2023-06-10 22:15:01.832957
+374,NN_IR_PT,31,Male,IT,VERY GOOD,2023-06-10 22:15:42.445172
+375,NN_IR_PT,35,Female,HEALTHCARE,THIS SURVEY IS ABOUT RAIN FORECAST SYSTEM,2023-06-10 22:15:57.815229
+376,NN_IR_PT,26,Male,Software developer,evaluation of climate change,2023-06-10 22:16:46.537727
+377,NN_IR_PT,31,Male,management,n/a,2023-06-10 22:16:55.529934
+378,NN_IR_PT,35,Female,HEALTHCARE,THIS SURVEY IS ABOUT RAIN FORECAST,2023-06-10 22:18:21.520899
+379,NN_IR_PT,30,Male,HEALTHCARE,GOOD ONE SURVEY.,2023-06-10 22:18:38.567755
+380,NN_IR_PT,34,Male,Retail,I feel that everything went well about it.,2023-06-10 22:19:32.984394
+381,NN_IR_PT,46,Female,manager,Thanks for this survey.,2023-06-10 22:20:31.503954
+382,NN_IR_PT,36,Female,manager,Thanks for this survey.,2023-06-10 22:20:55.381123
+383,NN_IR_PT,60,Male,worker,It was a nice survey.,2023-06-10 22:21:39.477111
+384,NN_IR_PT,31,Male,good,n/a,2023-06-10 22:21:50.055912
+385,NN_IR_PT,25,Female,Top level executive,Good and interesting,2023-06-10 22:22:13.430986
+386,NN_IR_PT,31,Male,IT,VERY GOOD,2023-06-10 22:22:39.361373
+387,NN_IR_PT,30,Male,healthcare,nice experience in survey.,2023-06-10 22:22:49.266306
+388,NN_IR_PT,31,Male,MANAGEMENT,N/A,2023-06-10 22:24:18.501518
+389,NN_IR_PT,33,Male,Healthcare,Its is good and interesting,2023-06-10 22:25:12.422071
+390,NN_IR_PT,30,Male,Health care,Good survey,2023-06-10 22:25:18.083584
+391,NN_IR_PT,36,Male,manager,None,2023-06-10 22:26:09.380335
+392,NN_IR_PT,36,Female,manager,None,2023-06-10 22:26:18.470406
+393,NN_IR_PT,30,Male,information technology,good,2023-06-10 22:27:19.864216
+394,NN_IR_PT,31,Male,good,n/a,2023-06-10 22:31:56.446539
+395,NN_IR_PT,31,Male,ALASKA,GOOD,2023-06-10 22:42:09.469777
+396,NN_IR_PT,33,Male,Freelancer,Predictions of weather forecasts?,2023-06-10 22:44:29.607982
+397,NN_IR_PT,38,Male,govermand jop,good,2023-06-10 22:46:57.466829
+398,NN_IR_PT,25,Female,Accounting ,good and interesting ,2023-06-10 22:50:45.041699
+399,NN_IR_PT,32,Male,Her occupation was dentistry.,good,2023-06-10 23:16:17.853230
+400,NN_IR_PT,30,Male,healthcare,GOOD ONE SURVEY.,2023-06-10 23:21:08.646934
+401,NN_IR_PT,25,Female,Administrative ,good and interesting ,2023-06-10 23:26:19.284169
+402,NN,40,Female,SUpervisor,simple and easy to complete,2023-06-11 18:24:38.022692
+403,NN,43,Male,Insurance,"I think it was well laid out, though went on a bit long.",2023-06-11 18:24:41.945215
+404,NN,41,Male,self employee,very dificult,2023-06-11 18:26:45.207077
+405,NN,45,Male,managar,no,2023-06-11 18:27:27.585402
+406,NN,30,Male,Information technology,good survey,2023-06-11 18:27:29.883264
+407,NN,28,Female,it,good,2023-06-11 18:27:30.343997
+408,NN,28,Male,engineer,evaluation of forecast system,2023-06-11 18:27:39.069021
+409,NN,33,Male,IT,GOOD,2023-06-11 18:28:07.774514
+410,NN,26,Male,software development,rain forecast system,2023-06-11 18:28:18.832351
+411,NN,31,Male,NICE,GOOD,2023-06-11 18:28:26.205401
+412,NN,29,Male,MANAGER,GOOD SURVEY,2023-06-11 18:28:36.732551
+413,NN,36,Male,Manager,No,2023-06-11 18:30:20.413629
+414,NN,44,Male,IT,GOOD SURVEY,2023-06-11 18:30:46.482673
+415,NN,27,Male,Information Technology,This is a good survey.,2023-06-11 18:30:58.082796
+416,NN,41,Female,self employee,very interested,2023-06-11 18:31:14.658629
+417,NN,33,Male,full time work,good survey,2023-06-11 18:31:46.450787
+418,NN,26,Male,MANAGER,NICE SURVEY.,2023-06-11 18:32:06.889458
+419,NN,26,Female,System Administrator,The survey was interesting.,2023-06-11 18:32:29.202601
+420,NN,33,Male,construction,good,2023-06-11 18:32:56.921603
+421,NN,33,Male,INFORMATION TECHNOLOGY,good survey,2023-06-11 18:33:01.097010
+422,NN,123,Male,A36ZEJ95Y408FI,GOOD,2023-06-11 18:33:20.237270
+423,NN,30,Prefer not to answer,none,it was fine,2023-06-11 18:34:07.872652
+424,NN,26,Male,Software,Nice,2023-06-11 18:34:36.706780
+425,NN,59,Male,businnes,good,2023-06-11 18:34:54.653890
+426,NN,31,Male,Financial,memory,2023-06-11 18:34:58.194540
+427,NN,30,Male,healthcare,good,2023-06-11 18:35:03.368349
+428,NN,36,Male,Manager,Good,2023-06-11 18:35:16.978813
+429,NN,31,Male,healthcare,good,2023-06-11 18:35:47.630243
+430,NN,30,Male,HEALTHCARE,GOOD SURVEY,2023-06-11 18:35:53.933132
+431,NN,31,Male,nothing,n/a,2023-06-11 18:36:22.225007
+432,NN,33,Male,Business,Weather,2023-06-11 18:36:22.515970
+433,NN,31,Male,IT,VERY GOOD,2023-06-11 18:36:37.635963
+434,NN,31,Male,HEALTH CARE,NOTHING,2023-06-11 18:36:44.936903
+435,NN,47,Male,Health care,This survey appears to be well structured and it clearly outlines the purpose and goal of the survey. ,2023-06-11 18:36:58.533773
+436,NN,36,Female,information technology ,this survey was very challenging ,2023-06-11 18:36:58.689832
+437,NN,30,Male,information technology`,good,2023-06-11 18:37:27.613294
+438,NN,33,Male,contruction,good survey,2023-06-11 18:37:45.556576
+439,NN,52,Female,IT,good,2023-06-11 18:37:46.304210
+440,NN,31,Male,health care,i like it,2023-06-11 18:37:57.675845
+441,NN,41,Female,Technology ,Thank  you.,2023-06-11 18:38:32.684583
+442,NN,31,Male,BUSINESS,GOOD,2023-06-11 18:38:40.032168
+443,NN,30,Male,infromation technology,good,2023-06-11 18:39:03.456669
+444,NN,43,Female,Healthcare ,I think this good.,2023-06-11 18:39:05.391065
+445,NN,35,Male,IT,GOOD,2023-06-11 18:39:22.296656
+446,NN,30,Male,information technology,good,2023-06-11 18:39:57.072999
+447,NN,28,Female,Information Technology,Nice Survey,2023-06-11 18:40:28.667274
+448,NN,33,Male,Informational Technology,Good ,2023-06-11 18:40:53.010848
+449,NN,53,Male,hard,very useful survey,2023-06-11 18:41:26.761597
+451,NN,33,Male,IT,GOOD,2023-06-11 18:41:33.457026
+452,NN,31,Male,health care,nothing,2023-06-11 18:41:44.905375
+453,NN,36,Male,Manager,Good ,2023-06-11 18:42:04.096269
+454,NN,30,Male,healthcare,good,2023-06-11 18:42:09.362559
+455,NN,28,Male,HEALTHCARE,GOOD,2023-06-11 18:42:10.646977
+456,NN,30,Male,Health care,Good survey for weather change,2023-06-11 18:42:14.016082
+457,NN,31,Male,health care,good,2023-06-11 18:42:39.965160
+458,NN,37,Female,Manager,Survey was very Good,2023-06-11 18:42:58.979198
+459,NN,30,Male,health care,good,2023-06-11 18:43:45.542427
+460,NN,30,Male,business,good,2023-06-11 18:45:29.697633
+461,NN,36,Female,Caregiver,I think this survey was a good way to estimate rain prediction percentages and relate that to whether or not it may actually rain.,2023-06-11 18:45:48.334523
+462,NN,31,Male,nothing,n/a,2023-06-11 18:45:59.287857
+463,NN,31,Male,health care,nothing,2023-06-11 18:46:56.836800
+464,NN,31,Male,healthcare,good,2023-06-11 18:47:02.154246
+465,NN,26,Male,software developer ,nothing,2023-06-11 18:47:07.069015
+466,NN,28,Male,HEALTHCARE,GOOD,2023-06-11 18:47:09.050134
+467,NN,31,Male,healthcare,good,2023-06-11 18:47:15.393587
+468,NN,37,Female,Manager,Nothing,2023-06-11 18:47:38.666940
+469,NN,30,Male,health care,GOOD,2023-06-11 18:48:44.542323
+470,NN,53,Male,SOFTWARE,VERY USEFUL SURVEY,2023-06-11 18:50:23.993462
+471,NN,36,Male,bussniess,good,2023-06-11 18:55:24.791908
+472,NN,35,Male,IT,GOOD,2023-06-11 18:55:31.072978
+473,NN,31,Male,IT,GOOD,2023-06-11 18:55:55.745020
+474,NN,56,Male,Warehouse manager,I thought it was studying how much trust people put into predictions.,2023-06-11 18:56:42.603267
+475,NN,65,Male,software,"goo
+d",2023-06-11 18:57:30.165308
+476,NN,32,Male,software,I think this survey is evaluation of rain forecast system,2023-06-11 18:57:31.808162
+477,NN,33,Male,employe,good  environment survey,2023-06-11 18:57:39.054109
+478,NN,29,Male,engineer,evaluation of forecasting,2023-06-11 19:01:20.571040
+479,NN,31,Male,IT,n/a,2023-06-11 19:01:31.057112
+480,NN,58,Female,finance,good,2023-06-11 19:02:53.497773
+481,NN,30,Male,HEALTH CARE, GOOD ONE SURVEY,2023-06-11 19:05:17.360382
+482,NN,37,Female,Sales,Predict the forecast,2023-06-11 19:05:24.051295
+483,NN,31,Male,financial,memory,2023-06-11 19:05:35.071824
+484,NN,33,Male,IT,GOOD,2023-06-11 19:05:52.480858
+485,NN,26,Female,Software Engineer,It's nice,2023-06-11 19:06:30.988169
+486,NN,43,Male,manager,nice survey,2023-06-11 19:08:23.354450
+487,NN,28,Male,Information Technology,Nice survey,2023-06-11 19:09:19.150091
+488,NN,33,Male,IT,GOOD,2023-06-11 19:10:16.850745
+489,NN,26,Male,ID,GOOD,2023-06-11 19:14:37.273245
+490,NN,38,Male,healthcare,survey on evaluation of rain forecast system.,2023-06-11 19:18:25.835093
+491,NN,33,Male,IT,GOOD,2023-06-11 19:31:40.096782
+492,NN_IR,24,Male,self employed,it was easy and fun!,2023-06-12 17:26:34.743392
+493,NN_IR,33,Male,Self Employed,It was set up in a user friendly way.,2023-06-12 17:28:31.937433
+494,NN_IR,33,Male,employe,good,2023-06-12 17:29:54.259530
+495,NN_IR,46,Male,finance,good,2023-06-12 17:30:25.194390
+496,NN_IR,39,Male,Network Admin,I thought it was interesting. I was expecting more feedback at the end.,2023-06-12 17:30:39.899615
+497,NN_IR,28,Male,software developer,very interesting ,2023-06-12 17:30:59.830260
+498,NN_IR,40,Male,software,good,2023-06-12 17:31:05.446400
+499,NN_IR,31,Male,it,good,2023-06-12 17:31:17.467401
+500,NN_IR,45,Female,Printer,It was fun,2023-06-12 17:32:14.804479
+501,NN_IR,31,Male,nothing,n/a,2023-06-12 17:32:31.622896
+502,NN_IR,64,Male,retired retail manager,I'm not sure. I think you were looking for how much trust could be affected in the short term.,2023-06-12 17:32:34.059646
+503,NN_IR,36,Female,healthcare,A survey on evaluation of rain forecast system,2023-06-12 17:32:34.322043
+504,NN_IR,42,Male,Financial analyst,To know about public opinion,2023-06-12 17:33:39.366301
+505,NN_IR,41,Female,self employee,good,2023-06-12 17:33:55.252559
+506,NN_IR,49,Male,Manager,Good,2023-06-12 17:34:03.530118
+507,NN_IR,33,Female,IT,GOOD,2023-06-12 17:34:25.052278
+508,NN_IR,31,Male,health care,good,2023-06-12 17:35:35.697949
+509,NN_IR,31,Male,it,good,2023-06-12 17:36:32.168079
+510,NN_IR,36,Male,managment ,No ,2023-06-12 17:36:58.661860
+511,NN_IR,30,Male,Health care,Good survey,2023-06-12 17:36:59.370294
+512,NN_IR,36,Male,healthcare,A survey on evaluation of rain forecast system,2023-06-12 17:37:58.200538
+513,NN_IR,25,Female,IT,EVALUVATION,2023-06-12 17:38:22.923392
+514,NN_IR,35,Male,MANAGER,THIS SURVEY IS ABOUT EVALUATION OF RAIN FORECAST SYSTEM.,2023-06-12 17:38:36.238638
+515,NN_IR,43,Male,Tech Repair Shop Owner,Unusual. ,2023-06-12 17:38:54.397170
+516,NN_IR,35,Male,Manager,very good.,2023-06-12 17:39:29.189220
+517,NN_IR,31,Male,nothing,n/a,2023-06-12 17:39:44.093528
+518,NN_IR,45,Male,managar,no,2023-06-12 17:39:45.950247
+519,NN_IR,33,Male,employe,good,2023-06-12 17:39:51.578979
+520,NN_IR,33,Male,it,good,2023-06-12 17:39:59.854554
+521,NN_IR,31,Male,health care,GOOD,2023-06-12 17:40:07.649271
+522,NN_IR,35,Male,Manager,very good. thank you for asking the question.,2023-06-12 17:40:11.746651
+523,NN_IR,31,Male,HEALTH CARE,NOTHING,2023-06-12 17:40:29.398988
+524,NN_IR,31,Male,it,good,2023-06-12 17:40:36.836607
+525,NN_IR,27,Female,ADMINISTRATIVE OFFICER,NICE,2023-06-12 17:40:39.077809
+526,NN_IR,48,Male,information,good,2023-06-12 17:40:54.990889
+527,NN_IR,42,Male,manager,GOOD,2023-06-12 17:40:57.922610
+528,NN_IR,35,Male,IT,GOOD,2023-06-12 17:40:58.878570
+529,NN_IR,35,Male,MANAGER,THE SURVEY IS GOOD,2023-06-12 17:42:58.074731
+530,NN_IR,59,Male,supervisor,nice,2023-06-12 17:43:07.293840
+531,NN_IR,35,Female,MANAGER,THE SURVEY IS GOOD,2023-06-12 17:43:07.603431
+532,NN_IR,48,Female,Manager,good,2023-06-12 17:43:08.486960
+533,NN_IR,36,Male,Chef,I'm not sure what the purpose of the study was. I guess to understand how peoples perceptions change based on outcomes?,2023-06-12 17:43:28.789848
+534,NN_IR,49,Female,Manager,Good,2023-06-12 17:43:31.326266
+535,NN_IR,43,Male,Engineer,It was really nice,2023-06-12 17:43:39.864203
+536,NN_IR,33,Female,manager,I think this survey was good.,2023-06-12 17:43:53.618382
+537,NN_IR,31,Male,it,good,2023-06-12 17:44:34.433176
+538,NN_IR,30,Male,Health care,Good,2023-06-12 17:44:58.984688
+539,NN_IR,35,Male,MANAGER,Very creative,2023-06-12 17:45:03.348524
+540,NN_IR,41,Female,Manufacturing,"It was interesting, never did one like this before.",2023-06-12 17:45:43.088908
+541,NN_IR,33,Male,Business,Weather,2023-06-12 17:45:49.958421
+542,NN_IR,51,Male,software,good,2023-06-12 17:46:04.799606
+543,NN_IR,30,Male,information technology,good,2023-06-12 17:46:47.771559
+544,NN_IR,33,Male,employe,good,2023-06-12 17:46:57.177087
+545,NN_IR,31,Male,health care,good,2023-06-12 17:47:23.885757
+546,NN_IR,59,Male,manager,nice,2023-06-12 17:47:27.233660
+547,NN_IR,31,Male,it,good,2023-06-12 17:48:10.092382
+548,NN_IR,42,Male,engeering,nice,2023-06-12 17:48:36.456600
+549,NN_IR,35,Male,Manager,very good.,2023-06-12 17:48:51.145276
+550,NN_IR,31,Male,HEALTH CARE,NOTHING,2023-06-12 17:48:55.318551
+551,NN_IR,70,Female,optician,good survey,2023-06-12 17:49:12.280157
+552,NN_IR,47,Male,software,nice,2023-06-12 17:50:27.629131
+553,NN_IR,33,Male,employe,good,2023-06-12 17:50:58.097623
+554,NN_IR,59,Male,manager,nice,2023-06-12 17:51:13.627690
+555,NN_IR,65,Female,Retired,trust,2023-06-12 17:51:27.718096
+556,NN_IR,30,Male,Health care,Good survey,2023-06-12 17:51:42.959029
+557,NN_IR,31,Male,nothing,n/a,2023-06-12 17:51:48.132469
+558,NN_IR,44,Male,ENGINEER,rain forecast,2023-06-12 17:51:54.880954
+559,NN_IR,31,Male,it,good,2023-06-12 17:51:58.344625
+560,NN_IR,31,Male,HEALTH CARE,NOTHING,2023-06-12 17:52:53.210780
+561,NN_IR,31,Male,IT,good,2023-06-12 17:57:40.921090
+562,NN_IR,30,Male,health care,good survey,2023-06-12 17:59:13.755024
+563,NN_IR,30,Male,information technology,good,2023-06-12 18:02:48.728702
+564,NN_IR,25,Female,administrative officer,good,2023-06-12 18:03:44.741105
+565,NN_IR,24,Male,TEACHER,DATA COLLECTION ,2023-06-12 18:03:53.229416
+566,NN_IR,59,Male,manager,nice,2023-06-12 18:05:11.315489
+567,NN_IR,33,Male,Manager,good,2023-06-12 18:05:28.658447
+568,NN_IR,53,Male,information technology ,Good,2023-06-12 18:05:57.249260
+569,NN_IR,42,Female,health care,i like a survey,2023-06-12 18:06:21.102623
+570,NN_IR,30,Male,healthcare,good,2023-06-12 18:08:21.548244
+571,NN_IR,47,Male,HEALTHCARE,GOOD,2023-06-12 18:08:33.485082
+572,NN_IR,52,Female,Analyst,It seemed like a fairly reliable prediction.,2023-06-12 18:09:00.380705
+573,NN_IR,30,Male,financial,good,2023-06-12 18:09:23.019297
+574,NN_IR,42,Female,Manager,A survey on evaluation of rain forecast system.,2023-06-12 18:11:04.630643
+575,NN_IR,30,Male,information technology,good,2023-06-12 18:13:39.587583
+576,NN_IR,41,Female,Administrative officer,It serves as both a review of the rain forecast system and a means of protecting people from flooding and severe rain. It is highly beneficial to humans.,2023-06-12 18:14:29.864434
+577,NN_IR,26,Female,Forecast officer,Good,2023-06-12 18:17:14.008637
+578,NN_IR,29,Male,IT,it was interesting.,2023-06-12 18:18:54.321614
+579,NN_IR,31,Male,healthcare,good,2023-06-12 18:20:14.022149
+580,NN_IR,55,Male,manager,nice,2023-06-12 18:30:35.276403
+581,NN_IR,26,Female,Forecast officer,Good,2023-06-12 18:34:38.032637
+582,NN_IR,30,Male,IT,Evaluation of forecast system.,2023-06-12 18:41:16.309939
+583,NN_PT,68,Male,Retired,It was interesting,2023-06-28 23:12:00.704806
+584,NN_PT,33,Male,Financial Manager,"I enjoyed the study. As a recent owner of a smart sprinkler system, I found the dynamics of the rain predictions to be relevant!",2023-06-28 23:13:00.763948
+585,NN_PT,49,Male,Employed at fulltime,good,2023-06-28 23:13:22.637757
+586,NN_PT,44,Male,Manager,good,2023-06-28 23:13:49.590885
+587,NN_PT,35,Female,MANAGER,none,2023-06-28 23:15:41.538318
+588,NN_PT,28,Male,data analyst,it is about rain prediction,2023-06-28 23:17:04.321204
+589,NN_PT,33,Male,EMPLOYE,GOOD,2023-06-28 23:17:10.001258
+590,NN_PT,39,Male,manager,"very interest the survey ,i like this survey",2023-06-28 23:17:42.979966
+591,NN_PT,35,Male,Manager,This study is about evaluation of rain forecast system.,2023-06-28 23:20:04.764578
+592,NN_PT,35,Male,Manager,This study is about evaluation of rain forecast system,2023-06-28 23:20:07.521144
+593,NN_PT,47,Male,Financial analyst,It is about trustness of prediction,2023-06-28 23:25:11.204550
+594,NN_PT,65,-Select Gender-,Retired,"I liked it, I used to forecast cpg demand for a living, I like forecasts",2023-06-28 23:25:42.289163
+596,NN_PT,36,Female,Manager,I think it was good and fun.,2023-06-28 23:26:58.561478
+597,NN_PT,40,Male,software developer,I thought it was repetitive.,2023-06-28 23:28:34.542448
+598,NN_PT,28,Male,Marketing,Good Knowledge and Memory Test,2023-06-28 23:30:23.760435
+599,NN_PT,31,Male,TEACHING,ALL GOOD,2023-06-28 23:32:21.781785
+600,NN_PT,60,Female,Nurse,It was fine,2023-06-28 23:33:52.274077
+601,NN_PT,30,Male,healthcare,good one survey.,2023-06-28 23:35:47.946546
+602,NN_PT,56,Male,Warehouse manager,Interesting study about how people perceive how reliable percentage-based forecasting is.,2023-06-28 23:41:16.198698
+603,NN_PT,26,Male,Software developer,Very interesting,2023-06-28 23:41:47.138182
+604,NN_PT,25,Female,Accounting Manager ,good and very interesting ,2023-06-28 23:43:22.370568
+605,NN_PT,35,Male,IT Professional,Interested and entertaining,2023-06-28 23:44:42.119359
+606,NN_PT,31,Male,developer,good,2023-06-28 23:45:34.907684
+607,NN_PT,30,Male,healthcare,good one survey.,2023-06-28 23:56:58.592003
+608,NN_PT,31,Male,Employee,Good,2023-06-29 00:00:11.267606
+609,NN_PT,25,Female,Administrative ,Good and very interesting ,2023-06-29 00:01:54.264446
+610,NN_PT,64,Male,retired retail manager,I'm not sure I would trust this system much.,2023-06-28 23:10:12.073582
+611,NN_PT,42,Male,Quality Assurance Analyst,To see if I trust prediction even after it is not 100% correct all the time.,2023-07-05 18:34:22.260801
+612,NN_PT,27,Male,Information technology,Good,2023-07-05 18:36:17.702745
+613,NN_PT,39,Male,Project Lead Customer Service,"I might have gotten one wrong when asked what was the percentage.  I completely drew a blank.  This was an interesting survey, would like to know if this uses real weather data. ",2023-07-05 18:36:43.545780
+614,NN_PT,28,Female,TL,good,2023-07-05 18:37:14.493213
+615,NN_PT,30,Female,40,GOOD,2023-07-05 18:37:23.801715
+616,NN_PT,35,Male,MANAGER,It is about rain fall forecasting,2023-07-05 18:37:23.970326
+617,NN_PT,47,Female,Click Worker,It was pretty easy,2023-07-05 18:37:28.242288
+618,NN_PT,36,Female,associate,fun and engaging,2023-07-05 18:37:42.006388
+619,NN_PT,39,Female,Manager,Its nice,2023-07-05 18:38:25.227708
+620,NN_PT,31,Male,HEALTH CARE,GOOD,2023-07-05 18:38:33.381444
+621,NN_PT,45,Male,Project manager,evaluation of rain forecast system,2023-07-05 18:39:06.829989
+622,NN_PT,35,Male,Manager,This is a good study ,2023-07-05 18:39:14.271033
+623,NN_PT,35,Female,Insurance,fun! tysm,2023-07-05 18:39:50.346079
+624,NN_PT,26,Female,it,good,2023-07-05 18:39:50.736391
+625,NN_PT,25,Female,IT,opinion,2023-07-05 18:40:12.783634
+626,NN_PT,30,Male,Master degree,Good survey,2023-07-05 18:40:20.796400
+627,NN_PT,25,Female,IT,OPINION,2023-07-05 18:40:22.038484
+628,NN_PT,35,Female,MANAGER,NONE,2023-07-05 18:40:43.671808
+629,NN_PT,36,Male,manager,good,2023-07-05 18:40:59.372642
+630,NN_PT,27,Female,developer,learn to  good prediction ,2023-07-05 18:41:25.181061
+631,NN_PT,33,Male,health care,good,2023-07-05 18:41:35.318587
+632,NN_PT,44,Male,Accounts manager,prediction about climate,2023-07-05 18:41:44.504772
+633,NN_PT,31,Female,MANAGER,ITS ABOUT RAINFALL FOURCAST,2023-07-05 18:41:55.878974
+634,NN_PT,56,Female,Manager,It was an enjoyable survey,2023-07-05 18:42:08.372963
+635,NN_PT,35,Male,Information Technology,good,2023-07-05 18:42:19.321161
+636,NN_PT,30,Male,Master degree,Good Survey,2023-07-05 18:42:27.613191
+637,NN_PT,35,Female,Manager,no,2023-07-05 18:45:13.832723
+638,NN_PT,30,Male,Master Degree,Good survey,2023-07-05 18:45:30.470419
+639,NN_PT,41,Male,Strategic Marketing Data Analyst,no clue,2023-07-05 18:46:04.241289
+640,NN_PT,36,Female,FINANCE,GOOD,2023-07-05 18:46:15.480609
+641,NN_PT,37,Male,salesman,it was interesting,2023-07-05 18:46:19.211399
+642,NN_PT,51,Female,Medicine,i like this survey,2023-07-05 18:46:36.774980
+643,NN_PT,25,Male,Administrative,Interesting,2023-07-05 18:46:56.421395
+644,NN_PT,34,Female,Healthcare,Its good and interesting,2023-07-05 18:46:59.558290
+645,NN_PT,35,Female,HEALTHCARE,GOOD,2023-07-05 18:47:43.472970
+646,NN_PT,47,Male,Financial analyst,Opinion about new app,2023-07-05 18:48:10.760927
+647,NN_PT,35,Female,health care,this survey is about evaluation of rain forecast system,2023-07-05 18:48:14.206249
+648,NN_PT,36,Female,employee,no,2023-07-05 18:48:15.147776
+649,NN_PT,33,Male,IT,GOOD,2023-07-05 18:49:40.165281
+650,NN_PT,30,Male,Master degee,Good survey,2023-07-05 18:52:25.420087
+651,NN_PT,30,Male,it,good,2023-07-05 18:54:13.925898
+652,NN_PT,30,Male,Master degree,Good Survey,2023-07-05 18:54:24.584093
+653,NN_PT,36,Male,Manager,No,2023-07-05 18:55:47.267037
+654,NN_PT,31,Male,financial,good,2023-07-05 18:56:59.734181
+655,NN_PT,31,Female,Manager,It was good,2023-07-05 19:02:04.788649
+656,NN_PT,28,Female,Manager,Its interesting survey.,2023-07-05 19:05:01.047850
+657,NN_PT,30,Male,HEALTH CARE,GOOD SURVEY,2023-07-05 19:05:04.435262
+658,NN_PT,30,Male,information technology,good,2023-07-05 19:07:02.742062
+659,NN_PT,25,Male,it,GOOD,2023-07-05 19:09:45.126448
+660,NN_PT,39,Male,Laborer,good,2023-07-05 19:12:15.039574
+661,NN_PT,30,Male,information technology,good,2023-07-05 19:14:07.795973
+662,NN_PT,31,Male,nothing,good,2023-07-05 19:14:33.792566
+663,NN_PT,55,Male,manager,good,2023-07-05 19:19:10.633186
+664,NN_PT,30,Male,HEALTHCARE,NOTHING,2023-07-05 19:22:49.752085
+665,NN_PT,31,Male,IT,GOOD,2023-07-05 19:25:22.827584
+666,NN_PT,30,Male,IT,Its about AI evaluation of weather.,2023-07-05 19:35:04.839152
+667,NN_PT,29,Male,IT,"It was quite interesting, a nice change of pace.",2023-07-05 19:35:52.871455
+668,NN_PT,31,Male,IT,GOOD,2023-07-05 19:39:41.732961
+669,NN_PT,33,Female,Computer Technician,"How our trust and decision making evolve over time, given new information",2023-07-05 18:34:08.702821
+670,NN_PT,45,Male,sales manager,predictions,2023-07-05 18:34:11.180456
+671,NN_IR_PT_Random,36,Male,carpenter,"I thought it was fine, I guess. I didn't know if I should ever cancel my plans as it was basically a 50/50 regardless of what the prediction was. ",2023-07-25 13:33:22.887002
+672,NN_IR_PT_Random,41,Male,Systems Analyst,Fun survey,2023-07-25 13:34:07.001653
+673,NN_IR_PT_Random,50,Male,Administrative officer,its about rain forcasting,2023-07-25 13:34:31.264685
+674,NN_IR_PT_Random,47,Male,Farm and ranch worker,How much do I trust a rain prediction service that is consistently wrong.,2023-07-25 13:35:08.725655
+677,NN_IR_PT_Random,60,Male,Machine Operator (Manufacturing),I'm not sure what to think about it.  I have no clue as to what the purpose of it might be.,2023-07-25 13:35:39.041171
+678,NN_IR_PT_Random,38,Female,Healthcare,Thank you.,2023-07-25 13:35:44.817623
+679,NN_IR_PT_Random,37,Female,BUSINESS,WELL,2023-07-25 13:35:52.368093
+680,NN_IR_PT_Random,35,Male,administration,evlated theforcasted,2023-07-25 13:35:57.646012
+681,NN_IR_PT_Random,26,Male,IT,GOOD,2023-07-25 13:36:21.668590
+682,NN_IR_PT_Random,44,Male,dietary aid,To see how much you trust their judgement if it'll rain,2023-07-25 13:36:34.344503
+683,NN_IR_PT_Random,41,Female,healthcare profesional,"It is quite unpredictable to the rainy days,",2023-07-25 13:36:39.757788
+684,NN_IR_PT_Random,40,Female,OFFICE WORKER,the study was about people decision on weather forecast system.,2023-07-25 13:37:20.366489
+685,NN_IR_PT_Random,47,Male,IT,Climate change,2023-07-25 13:37:24.412806
+686,NN_IR_PT_Random,35,Female,Manager,This survey about rain ,2023-07-25 13:37:53.464219
+687,NN_IR_PT_Random,31,Male,COMPUTING,GOOD,2023-07-25 13:37:55.023483
+688,NN_IR_PT_Random,35,Female,manager,It is about rainfall,2023-07-25 13:38:04.191078
+689,NN_IR_PT_Random,25,Female,software,decision making,2023-07-25 13:38:05.502475
+690,NN_IR_PT_Random,26,Male,Teacher,Rain forecast system perdition,2023-07-25 13:38:08.124906
+691,NN_IR_PT_Random,35,Male,Stock Broker,Do people fault weather systems for unexpected changes in weather?,2023-07-25 13:38:30.481171
+692,NN_IR_PT_Random,34,Male,MANAGER,this survey about rainfall and find the weather.,2023-07-25 13:38:35.720809
+693,NN_IR_PT_Random,37,Female,healthcare,This survey is about the rain forecast system,2023-07-25 13:39:01.293045
+694,NN_IR_PT_Random,35,Female,INFORMATION TECH,VERY GOOD AND THANKS FOR 1.20DOLLAR.,2023-07-25 13:39:12.117143
+695,NN_IR_PT_Random,25,Male,Manager,very interesting ,2023-07-25 13:39:19.473610
+696,NN_IR_PT_Random,35,Female,Manager,This survey is all about weather.,2023-07-25 13:39:34.459978
+697,NN_IR_PT_Random,43,Male,other,good,2023-07-25 13:39:36.485869
+698,NN_IR_PT_Random,24,Female,Health aid,I enjoyed this survey.,2023-07-25 13:39:47.621040
+699,NN_IR_PT_Random,60,Female,business management,good survey,2023-07-25 13:39:51.157484
+700,NN_IR_PT_Random,31,Male,Business,i like this survey,2023-07-25 13:39:52.878570
+701,NN_IR_PT_Random,32,Male,IT,GOOD,2023-07-25 13:39:54.636172
+702,NN_IR_PT_Random,30,Female,Manager,Rain forecast,2023-07-25 13:40:30.662230
+703,NN_IR_PT_Random,38,Female,business,THE SURVEY IS GOOD,2023-07-25 13:40:34.564903
+704,NN_IR_PT_Random,35,Male,Manager,This survey is all about weather.,2023-07-25 13:40:35.527652
+705,NN_IR_PT_Random,30,Male,it,nice,2023-07-25 13:41:20.023164
+706,NN_IR_PT_Random,30,Female,Healthcare,Good One.,2023-07-25 13:41:30.463241
+707,NN_IR_PT_Random,35,Female,manager,It is about rainfall,2023-07-25 13:41:32.359524
+708,NN_IR_PT_Random,31,Male,BUSINESS,GOOD,2023-07-25 13:42:10.839835
+709,NN_IR_PT_Random,35,Male,Manager,The purpose of this study was to gauge how participants trusted a weather system based on percentage of chain and outcome.,2023-07-25 13:42:23.743334
+710,NN_IR_PT_Random,43,Male,Software Developer ,Evaluation of rain forecast system .,2023-07-25 13:42:24.979431
+711,NN_IR_PT_Random,26,Female,manager,none,2023-07-25 13:42:53.966485
+712,NN_IR_PT_Random,26,Female,IT,Good....,2023-07-25 13:43:00.938379
+713,NN_IR_PT_Random,30,Male,IT,NICE,2023-07-25 13:43:28.473829
+714,NN_IR_PT_Random,25,Female,Manager,good and interesting,2023-07-25 13:43:34.672149
+715,NN_IR_PT_Random,30,Male,IT,NICE,2023-07-25 13:43:46.670252
+716,NN_IR_PT_Random,35,Male,manager,"This survey seems comprehensive and well-organized. It covers a lot of different aspects related to the topic, and it looks like it has good questions that should be able to provide useful information.",2023-07-25 13:43:50.464435
+717,NN_IR_PT_Random,35,Male,MANAGER,this survey about that rainfall,2023-07-25 13:43:54.257790
+718,NN_IR_PT_Random,30,Male,IT,NICE,2023-07-25 13:44:00.863984
+719,NN_IR_PT_Random,35,Male,manager,"This survey seems comprehensive and well-organized. It covers a lot of different aspects related to the topic, and it looks like it has good questions that should be able to provide useful information.",2023-07-25 13:44:02.274935
+720,NN_IR_PT_Random,36,Male,MAnager,No,2023-07-25 13:44:19.066139
+721,NN_IR_PT_Random,30,Male,Information technology,good,2023-07-25 13:44:39.652824
+722,NN_IR_PT_Random,48,Male,Senior POS Technician (IT / Technical Support),I think it was well-designed and fairly paid.  Thanks for the task!  I did my best and hope the data is useful!,2023-07-25 13:44:53.955629
+723,NN_IR_PT_Random,32,Male,IT,GOOD,2023-07-25 13:44:58.877664
+724,NN_IR_PT_Random,35,Female,manager,very good,2023-07-25 13:45:01.470612
+725,NN_IR_PT_Random,63,Male,IT,rain survey,2023-07-25 13:45:25.164504
+726,NN_IR_PT_Random,47,Male,Health care,good,2023-07-25 13:45:39.701606
+727,NN_IR_PT_Random,48,Female,Healthcare ,Thank you.,2023-07-25 13:46:09.794950
+728,NN_IR_PT_Random,26,Male,Adminstrator,good,2023-07-25 13:46:16.361569
+729,NN_IR_PT_Random,45,Male,HEALTH CARE,THE SURVEY IS ABOUT EVALUATION OF RAIN FORECAST SYSTEM.,2023-07-25 13:46:26.605506
+730,NN_IR_PT_Random,43,Female,Healthcare ,Thank you.,2023-07-25 13:46:58.682389
+731,NN_IR_PT_Random,48,Female,arts and entertainment,Its really very interesting .,2023-07-25 13:47:03.090354
+732,NN_IR_PT_Random,45,Female,Freelance contractor,It was interesting.,2023-07-25 13:48:08.718578
+733,NN_IR_PT_Random,25,Male,Management,Interesting to forecast the climate.,2023-07-25 13:48:13.941479
+734,NN_IR_PT_Random,22,Female,Employe,GOOD SURVEY..,2023-07-25 13:48:50.319902
+735,NN_IR_PT_Random,30,Female,Healthcare,Good One.,2023-07-25 13:49:50.988256
+736,NN_IR_PT_Random,42,Male,Transport Clerk,"I found it interesting and very clear and easy to understand, as well as complete.",2023-07-25 13:50:58.582947
+737,NN_IR_PT_Random,31,Male,businedd,good,2023-07-25 13:52:40.465998
+738,NN_IR_PT_Random,36,Male,IT Service Manager,"It was interesting, thank you for having me.",2023-07-25 13:53:29.527429
+739,NN_IR_PT_Random,26,Female,manger,good,2023-07-25 13:55:21.117779
+740,NN_IR_PT_Random,32,Male,IT,GOOD,2023-07-25 14:02:50.115979
+741,NN_IR_PT_Random,31,Male,computing,good,2023-07-25 14:05:08.086321
+742,NN_IR_PT_Random,51,Female,SALEMANGER,GOOD,2023-07-25 14:05:46.153484
+743,NN_IR_PT_Random,32,Male,IT,GOOD,2023-07-25 14:08:09.859346
+744,NN_IR_PT_Random,35,Male,manager,the survey is the evaluation of rain system ,2023-07-25 14:08:36.154517
+745,NN_IR_PT_Random,25,Male,Bussiness,Interesting,2023-07-25 14:11:55.953013
+746,NN_IR_PT_Random,25,Male,Supervisor,Reality of system prediction,2023-07-25 14:13:07.637552
+747,NN_IR_PT_Random,51,Male,Engineer,Good,2023-07-25 14:14:58.300772
+748,NN_IR_PT_Random,39,Female,Administrative officer,Its really good survey.,2023-07-25 14:18:28.863100
+749,NN_IR_PT_Random,26,Female,Information Technology,Good,2023-07-25 14:19:01.970511
+750,NN_IR_PT_Random,31,Female,manager,good survey.,2023-07-25 14:21:51.634700
+751,NN_IR_PT_Random,25,Female,Banking,Interesting,2023-07-25 14:42:55.877470
+752,NN_IR_PT_Random,30,Male,computer,good,2023-07-25 13:32:50.802151
+753,NN_IR_PT_Random,43,Male,Software Engineer,This survey was very tedious. I understood that it was on the surface at least trying to see how people adjust their expectations over time and given some extremes in accuracy/inaccuracy.,2023-07-25 13:33:10.233122
