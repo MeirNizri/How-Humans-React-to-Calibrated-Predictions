@@ -46,13 +46,13 @@ def get_model_prediction(model_name, num_samples=20):
             binary_list.append(random.choices([0,1], weights=[1-prob, prob])[0])
         y = np.array(binary_list)
 
-    elif model_name == "nn":
+    elif model_name == "NN":
         # Create nn model and get model prediction and true label for given number of samples
         rain_nn = get_rain_nn()
         X, y = get_samples(num_samples)
         y_pred = rain_nn.predict_proba(X)[:, 1].reshape(-1)
     
-    elif model_name == "nn_pt_calibrated":
+    elif model_name == "NN_PT":
         # Create nn model and get model prediction and true label for given number of samples
         rain_nn = get_rain_nn()
         X, y = get_samples(num_samples)
@@ -61,7 +61,7 @@ def get_model_prediction(model_name, num_samples=20):
         # add prospect theory weighting
         y_pred = inverse_probability_weighting(y_pred)
 
-    elif model_name == "nn_ir_calibrated":
+    elif model_name == "NN_IR":
         # Create calibrated model
         rain_nn = get_rain_nn()
         calibrated_rain_nn = calibrate_rain_nn(rain_nn, "ir")
@@ -70,7 +70,7 @@ def get_model_prediction(model_name, num_samples=20):
         X, y = get_samples(num_samples)
         y_pred = calibrated_rain_nn.predict_proba(X)[:, 1].reshape(-1)
 
-    elif model_name == "nn_ir_pt_calibrated":
+    elif model_name == "NN_IR_PT":
         # Create nn model and get model prediction and true label for given number of samples
         rain_nn = get_rain_nn()
         calibrated_rain_nn = calibrate_rain_nn(rain_nn, "ir")
@@ -80,6 +80,20 @@ def get_model_prediction(model_name, num_samples=20):
  
         # add prospect theory weighting
         y_pred = inverse_probability_weighting(y_pred)
+
+    elif model_name == "NN_IR_PT_Random":
+        # Create nn model and get model prediction and true label for given number of samples
+        rain_nn = get_rain_nn()
+        calibrated_rain_nn = calibrate_rain_nn(rain_nn, "ir")
+
+        X, _ = get_samples(num_samples)
+        y_pred = calibrated_rain_nn.predict_proba(X)[:, 1].reshape(-1)
+ 
+        # add prospect theory weighting
+        y_pred = inverse_probability_weighting(y_pred)
+
+        # create series of randomly cosen 0s and 1s in the same shape as y_pred
+        y = pd.Series(np.random.randint(0, 2, size=num_samples))
 
     return y_pred, y
 

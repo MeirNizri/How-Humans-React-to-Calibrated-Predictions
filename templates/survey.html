@@ -184,6 +184,7 @@
 <script>
 
     // global variables
+    let model_name = ""
     let prediction = [];
     let outcome = [];
     let firstRate = []
@@ -192,19 +193,20 @@
     let outcomeTest = []
     let dayNum = 1;
     let numDays = 5;
-
+    
     // let model_name = "perfect(uniform)"
     // let model_name = "ignorant(high-low)"
     // let model_name = "pt_calibrated(uniform)"
-    // let model_name = "nn"
-    let model_name = "nn_pt_calibrated"
-    // let model_name = "nn_ir_calibrated"
-    // let model_name = "nn_ir_pt_calibrated"
+    // let model_name = "NN"
+    // let model_name = "NN_PT"
+    // let model_name = "NN_IR"
+    // let model_name = "NN_IR_PT"
+    // let model_name = "NN_IR_PT_Random"
 
     // send request for data to flask server
     const xhr = new XMLHttpRequest();
-    // xhr.open("GET", "https://flask-service.1tmm8q60clfs6.us-east-1.cs.amazonlightsail.com/"+model_name+"/"+numDays+"/");
-    xhr.open("GET", "http://127.0.0.1:5000/"+model_name+"/"+numDays+"/");
+    // xhr.open("GET", "https://flask-service.1tmm8q60clfs6.us-east-1.cs.amazonlightsail.com/"+numDays+"/");
+    xhr.open("GET", "http://127.0.0.1:5000/"+numDays+"/");
     xhr.send();
 
     // handle response
@@ -215,6 +217,7 @@
         data = JSON.parse(xhr.responseText);
         prediction = data.predictions;
         outcome = data.outcomes;
+        model_name = data.model_name;
     };
 
 

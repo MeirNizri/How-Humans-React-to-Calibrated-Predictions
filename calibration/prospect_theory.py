@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib.pyplot as plt
 
 def probability_weighting(p, alpha=0.71):
     """
@@ -28,6 +29,20 @@ if __name__ == '__main__':
 
         # p_hat should be equal to p 
         print(f"{p:.1f} -> {p_hat:.3f}")
+    
+    # plot probability weighting function, inverse probability weighting function and identity function in one plot.
+    # the probability weighting function and inverse probability weighting function plotted in black, and the identity function
+    # in dotted black.
+    p = np.arange(0, 1.001, 0.001)
+    plt.plot(p, probability_weighting(p), color='red', label='weighting function')
+    plt.plot(p, inverse_probability_weighting(p), color='blue', label='inverse weighting function')
+    plt.plot(p, p, '--', color='black', label='w(p)=p')
+    plt.xlabel('p')
+    plt.ylabel('w(p)')
+    plt.legend()
+    plt.show()
+
+
     
     # random_pred = np.random.random(20)
     # print(type(random_pred))
