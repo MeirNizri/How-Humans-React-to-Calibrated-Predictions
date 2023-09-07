@@ -166,6 +166,7 @@
 
 
     <div id="input_arrays">
+        <input type="text" id="modelName" name="modelName" />
         <input type="text" id="prediction_" name="prediction_" />
         <input type="text" id="outcome_" name="outcome_"" />
         <input type="text" id="firstRate_" name="firstRate_" />
@@ -192,7 +193,7 @@
     let predTest = []
     let outcomeTest = []
     let dayNum = 1;
-    let numDays = 5;
+    let numDays = 20;
     
     // let model_name = "perfect(uniform)"
     // let model_name = "ignorant(high-low)"
@@ -205,6 +206,7 @@
 
     // send request for data to flask server
     const xhr = new XMLHttpRequest();
+    
     // xhr.open("GET", "https://flask-service.1tmm8q60clfs6.us-east-1.cs.amazonlightsail.com/"+numDays+"/");
     xhr.open("GET", "http://127.0.0.1:5000/"+numDays+"/");
     xhr.send();
@@ -310,6 +312,7 @@
 
     
     function addUser () {
+        document.getElementById("modelName").value = model_name;
         document.getElementById("prediction_").value = prediction;
         document.getElementById("outcome_").value = outcome;
         document.getElementById("firstRate_").value = firstRate;

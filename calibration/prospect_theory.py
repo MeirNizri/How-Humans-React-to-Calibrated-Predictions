@@ -30,9 +30,7 @@ if __name__ == '__main__':
         # p_hat should be equal to p 
         print(f"{p:.1f} -> {p_hat:.3f}")
     
-    # plot probability weighting function, inverse probability weighting function and identity function in one plot.
-    # the probability weighting function and inverse probability weighting function plotted in black, and the identity function
-    # in dotted black.
+    # plot probability weighting function and inverse probability weighting function
     p = np.arange(0, 1.001, 0.001)
     plt.plot(p, probability_weighting(p), color='red', label='weighting function')
     plt.plot(p, inverse_probability_weighting(p), color='blue', label='inverse weighting function')
@@ -41,11 +39,3 @@ if __name__ == '__main__':
     plt.ylabel('w(p)')
     plt.legend()
     plt.show()
-
-
-    
-    # random_pred = np.random.random(20)
-    # print(type(random_pred))
-    # print(type(inverse_probability_weighting(random_pred)))
-
-

@@ -22,10 +22,13 @@ def get_rain_nn():
     # Initializing the NN
     model = MLPClassifier(hidden_layer_sizes=(64, 32, 16, 8),
                           activation='relu',
+                          warm_start=True,
                           learning_rate_init=0.0001,
+                          learning_rate='adaptive',
                           batch_size=32,
                           solver='adam',
-                          max_iter=500,
+                          max_iter=2000,
+                          n_iter_no_change=1000,
                           verbose=True)
 
     # Training the NN

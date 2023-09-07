@@ -20,6 +20,7 @@ def get_rainfall(num_days):
     # randomly select one model from models untill all chosen desired number of times
     choose_prob = np.array([(desired_count - model_counts[model]) for model in models])
     choose_prob = choose_prob / np.sum(choose_prob)
+    choose_prob = np.nan_to_num(choose_prob, nan=0.0, posinf=0.0, neginf=0.0)
     
     if np.sum(choose_prob) != 0:
         model_name = np.random.choice(models, p=choose_prob)
